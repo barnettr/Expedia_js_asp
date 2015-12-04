@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airlines>
+	<airline name="Aer Lingus" code="EI"/>
+	<airline name="Aeromexico" code="AM"/>
+	<airline name="Air Canada" code="AC"/>
+	<airline name="Air China" code="CA"/> 
+	<airline name="Air Europa" code="UX"/>
+	<airline name="Air France" code="AF"/> 
+	<airline name="Air Jamaica" code="JM"/>
+	<airline name="Air New Zealand" code="NZ"/>
+	<airline name="Air Portugal" code="TP"/>
+	<airline name="Air Tahiti Nui" code="TN"/>
+	<airline name="Alaska Airlines" code="AS"/>
+	<airline name="Alitalia" code="AZ"/>
+	<airline name="All Nippon Airways" code="NH"/>
+	<airline name="Aloha Airlines" code="AQ"/>
+	<airline name="America West" code="HP"/>
+	<airline name="American Airlines" code="AA"/>
+	<airline name="Asiana Airlines" code="OZ"/>
+	<airline name="ATA" code="TZ"/>
+	<airline name="Austrian Airlines" code="OS"/>
+	<airline name="bmi" code="BD"/>
+	<airline name="British Airways" code="BA"/>
+	<airline name="Cathay Pacific" code="CX"/>
+	<airline name="China Airlines" code="CI"/>
+	<airline name="China Eastern Airlines" code="MU"/>
+	<airline name="Continental" code="CO"/>
+	<airline name="Czech Airlines" code="OK"/>
+	<airline name="Delta" code="DL"/>
+	<airline name="El Al" code="LY"/>
+	<airline name="Emirates" code="EK"/>
+	<airline name="EVA Airways" code="BR"/>
+	<airline name="Finnair" code="AY"/>
+	<airline name="Frontier Airlines" code="F9"/>
+	<airline name="Hawaiian Airlines" code="HA"/>
+	<airline name="Iberia" code="IB"/>
+	<airline name="Icelandair" code="FI"/>
+	<airline name="Japan Airlines" code="JL"/>
+	<airline name="KLM" code="KL"/>
+	<airline name="Korean Air" code="KE"/>
+	<airline name="LACSA" code="LR"/>
+	<airline name="LAN Airlines" code="LA"/>
+	<airline name="LAN Ecuador" code="XL"/>
+	<airline name="LOT-Polish Airlines" code="LO"/>
+	<airline name="Lufthansa" code="LH"/>
+	<airline name="Malaysia Airlines" code="MH"/>
+	<airline name="MAXjet" code="MY"/>
+	<airline name="Mexicana" code="MX"/>
+	<airline name="Midwest Airlines" code="YX"/>
+	<airline name="Northwest" code="NW"/>
+	<airline name="Olympic" code="OA"/>
+	<airline name="Qantas Airways" code="QF"/>
+	<airline name="SAS" code="SK"/>
+	<airline name="Spanair" code="JK"/>
+	<airline name="Sun Country Airlines" code="SY"/>
+	<airline name="Swiss Intern'l Air Lines" code="LX"/>
+	<airline name="TACA" code="TA"/>
+	<airline name="Thai Air International" code="TG"/>
+	<airline name="United" code="UA"/>
+	<airline name="US Airways" code="US"/>
+	<airline name="Virgin Atlantic" code="VS"/>
+</airlines>

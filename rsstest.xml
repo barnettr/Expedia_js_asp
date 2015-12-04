@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<rss version="2.0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+	<channel>
+		<title>worldKit welcome feed</title>
+		<link>http://www.brainoff.com/worldkit/</link>
+		<description>Sample feed for worldKit</description>
+		<item>
+			<title>Welcome to WorldKit</title>
+			<link>http://brainoff.com/worldkit/</link>
+			<description>If you see this, you have successfully installed worldKit on your webserver!
+			</description>
+			<geo:lat>0</geo:lat>
+			<geo:long>0</geo:long>
+			</item>
+		<item>
+			<title>Read all about it</title>
+			<link>http://brainoff.com/worldkit/doc/</link>
+			<description>Check out how to set up your application in the manual</description>
+			<geo:lat>-60</geo:lat>
+			<geo:long>45</geo:long>
+			</item>
+		<item>
+			<title>Enjoy</title>
+			<description>Thanks for checking in out - Mikel</description>
+			<link>http://brainoff.com/worldkit/contact.php</link>
+			<geo:lat>45</geo:lat>
+			<geo:long>-90</geo:long>
+			</item>
+	</channel>
+</rss>

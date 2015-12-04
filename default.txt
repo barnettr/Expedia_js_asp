@@ -1,0 +1,19 @@
+/--------------------------------------------------------------------------\
+| Title        : Template eMail Previewer (TeMP)                           |
+| Description  : ** UNKNOWN **                                             |
+|                                                                          |
+| File name    : default.txt                                               |
+| File size    : 845 bytes (approx)                                        |
+| Create date  : 14-Mar-2007                                               |
+\--------------------------------------------------------------------------/
+
+NOTE: The above TEXT_HEADER is absent in the registered version
+
+------------------ Your output starts below this line ------------------
+
+
+============================================================================
+Converted by an unregistered version of Detagger 2.4
+Visit http://www.jafsoft.com/detagger/
+This TEXT_FOOTER can be customised or removed in the registered version
+============================================================================

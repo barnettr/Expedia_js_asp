@@ -1,0 +1,260 @@
+<PriceModule promo="winter2007">
+  <row hotelid="19722" destID="178248" TLA="NYC" region="Central" location="Chicago" rank="1" price="yes" moreURL="no">
+    <name>Hotel Orrington</name>
+    <travelerRating>4.2</travelerRating>
+    <starRating>40</starRating>
+    <priceCol1>179</priceCol1>
+    <priceCol2>452</priceCol2>
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PkgHotDetails&amp;DestID=178248:CHI&amp;HotelID=19722&amp;NumAdult=2&amp;Merchtext=Holiday+sale!+Stay+four+nights,+save+41%25+on+your+stay.+Sample+4-night+air/hotel+package+from+New+York+to+Chicago+from+$452+is+based+on+travel+October+22+through+December+31+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+    <hotelURL>/pubspec/scripts/eap.asp?GOTO=HotDetails&amp;Hotelid=19722&amp;numadult=1&amp;merchtext=Holiday+sale!+Stay+four+nights,+save+41%25+on+your+stay.+Rates+from+$179+valid+for+stays+October+22+through+December+31+Book+today+and+save!</hotelURL>
+  </row>
+  <row hotelid="128" destID="178265" TLA="CHI" region="Central" location="Houston" rank="1" price="yes" moreURL="no">
+    <name>Hotel Derek</name>
+    <travelerRating>3.9</travelerRating>
+    <starRating>40</starRating>
+    <priceCol1>111</priceCol1>
+    <priceCol2>635</priceCol2>
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PkgHotDetails&amp;DestID=178265:HOU&amp;HotelID=128&amp;NumAdult=2&amp;Merchtext=Holiday+sale!+Stay+four+nights,+save+40%25+on+your+stay.+Sample+4-night+air/hotel+package+from+Chicago+to+Houston+from+$635+is+based+on+travel+October+22+through+December+31+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+    <hotelURL>/pubspec/scripts/eap.asp?GOTO=HotDetails&amp;Hotelid=128&amp;numadult=1&amp;merchtext=Holiday+sale!+Stay+four+nights,+save+40%25+on+your+stay.+Rates+from+$111+valid+for+stays+October+22+through+December+31+Book+today+and+save!</hotelURL>
+  </row>
+  <row hotelid="988800" destID="178265" TLA="CHI" region="Central" location="Houston" rank="1" price="yes" moreURL="no">
+    <name>Hotel ICON - Destination Resorts</name>
+    <travelerRating>4.5</travelerRating>
+    <starRating>40</starRating>
+    <priceCol1>161</priceCol1>
+    <priceCol2>632</priceCol2>
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PkgHotDetails&amp;DestID=178265:HOU&amp;HotelID=988800&amp;NumAdult=2&amp;Merchtext=Holiday+sale!+Stay+four+nights,+save+40%25+on+your+stay.+Sample+4-night+air/hotel+package+from+Chicago+to+Houston+from+$632+is+based+on+travel+October+22+through+December+31+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+    <hotelURL>/pubspec/scripts/eap.asp?GOTO=HotDetails&amp;Hotelid=988800&amp;numadult=1&amp;merchtext=Holiday+sale!+Stay+four+nights,+save+40%25+on+your+stay.+Rates+from+$161+valid+for+stays+October+22+through+December+31+Book+today+and+save!</hotelURL>
+  </row>
+  <row hotelid="1085637" destID="178265" TLA="CHI" region="Central" location="Houston" rank="1" price="yes" moreURL="no">
+    <name>Inn at the Ballpark</name>
+    <travelerRating>4.6</travelerRating>
+    <starRating>40</starRating>
+    <priceCol1>129</priceCol1>
+    <priceCol2>591</priceCol2>
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PkgHotDetails&amp;DestID=178265:HOU&amp;HotelID=1085637&amp;NumAdult=2&amp;Merchtext=Holiday+sale!+Stay+four+nights,+save+40%25+on+your+stay.+Sample+4-night+air/hotel+package+from+Chicago+to+Houston+from+$591+is+based+on+travel+October+22+through+December+31+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+    <hotelURL>/pubspec/scripts/eap.asp?GOTO=HotDetails&amp;Hotelid=1085637&amp;numadult=1&amp;merchtext=Holiday+sale!+Stay+four+nights,+save+40%25+on+your+stay.+Rates+from+$129+valid+for+stays+October+22+through+December+31+Book+today+and+save!</hotelURL>
+  </row>
+  <row hotelid="17746" destID="178265" TLA="CHI" region="Central" location="Houston" rank="1" price="yes" moreURL="no">
+    <name>Omni Houston Hotel</name>
+    <travelerRating>4.8</travelerRating>
+    <starRating>45</starRating>
+    <priceCol1>239</priceCol1>
+    <priceCol2>659</priceCol2>
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PkgHotDetails&amp;DestID=178265:HOU&amp;HotelID=17746&amp;NumAdult=2&amp;Merchtext=Holiday+sale!+Stay+four+nights,+save+40%25+on+your+stay.+Sample+4-night+air/hotel+package+from+Chicago+to+Houston+from+$659+is+based+on+travel+October+22+through+December+31+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+    <hotelURL>/pubspec/scripts/eap.asp?GOTO=HotDetails&amp;Hotelid=17746&amp;numadult=1&amp;merchtext=Holiday+sale!+Stay+four+nights,+save+40%25+on+your+stay.+Rates+from+$239+valid+for+stays+October+22+through+December+31+Book+today+and+save!</hotelURL>
+  </row>
+  <row hotelid="1682" destID="178287" TLA="CHI" region="Central" location="Minneapolis" rank="1" price="yes" moreURL="no">
+    <name>Marriott Minneapolis City Center</name>
+    <travelerRating>4.0</travelerRating>
+    <starRating>35</starRating>
+    <priceCol2>433</priceCol2>
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PkgHotDetails&amp;DestID=178287:MSP&amp;HotelID=1682&amp;NumAdult=2&amp;Merchtext=Holiday+sale!+Sample+4-night+air/hotel+package+from+Chicago+to+Minneapolis+from+$433+is+based+on+travel+October+22+through+December+31+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+  </row>
+  <row hotelid="14303" destID="178287" TLA="CHI" region="Central" location="Minneapolis" rank="1" price="yes" moreURL="no">
+    <name>Marriott Minneapolis Southwest</name>
+    <travelerRating>4.8</travelerRating>
+    <starRating>35</starRating>
+    <priceCol2>274</priceCol2>
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PkgHotDetails&amp;DestID=178287:MSP&amp;HotelID=14303&amp;NumAdult=2&amp;Merchtext=Holiday+sale!+Sample+4-night+air/hotel+package+from+Chicago+to+Minneapolis+from+$274+is+based+on+travel+October+22+through+December+31+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+  </row>
+  <row hotelid="338" destID="178287" TLA="CHI" region="Central" location="Minneapolis" rank="1" price="yes" moreURL="no">
+    <name>Park Plaza</name>
+    <travelerRating>3.5</travelerRating>
+    <starRating>30</starRating>
+    <priceCol1>99</priceCol1>
+    <priceCol2>392</priceCol2>
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PkgHotDetails&amp;DestID=178287:MSP&amp;HotelID=338&amp;NumAdult=2&amp;Merchtext=Holiday+sale!+Sample+4-night+air/hotel+package+from+Chicago+to+Minneapolis+from+$392+is+based+on+travel+October+22+through+December+31+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+    <hotelURL>/pubspec/scripts/eap.asp?GOTO=HotDetails&amp;Hotelid=338&amp;numadult=1&amp;merchtext=Holiday+sale!+Rates+from+$99+valid+for+stays+October+22+through+December+31+Book+today+and+save!</hotelURL>
+  </row>
+  <row hotelid="13389" destID="178303" TLA="CHI" region="Central" location="San Antonio" rank="1" price="yes" moreURL="no">
+    <name>Radisson Hotel Downtown Market Square</name>
+    <travelerRating>3.8</travelerRating>
+    <starRating>30</starRating>
+    <priceCol1>81</priceCol1>
+    <priceCol2>453</priceCol2>
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PkgHotDetails&amp;DestID=178303:SAT&amp;HotelID=13389&amp;NumAdult=2&amp;Merchtext=Holiday+sale!+Sample+4-night+air/hotel+package+from+Chicago+to+San+Antonio +from+$453+is+based+on+travel+October+22+through+December+31+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+    <hotelURL>/pubspec/scripts/eap.asp?GOTO=HotDetails&amp;Hotelid=13389&amp;numadult=1&amp;merchtext=Holiday+sale!+Rates+from+$81+valid+for+stays+October+22+through+December+31+Book+today+and+save!</hotelURL>
+  </row>
+  <row hotelid="26061" destID="178309" TLA="NYC" region="Central" location="St. Louis" rank="1" price="yes" moreURL="no">
+    <name>Cheshire Lodge</name>
+    <travelerRating>3.0</travelerRating>
+    <starRating>30</starRating>
+    <priceCol1>67</priceCol1>
+    <priceCol2>406</priceCol2>
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PkgHotDetails&amp;DestID=178309:STL&amp;HotelID=26061&amp;NumAdult=2&amp;Merchtext=Holiday+sale!+Stay+four+nights,+save+40%25+on+your+stay.+Sample+4-night+air/hotel+package+from+New+York+to+St.+ Louis+from+$406+is+based+on+travel+October+22+through+December+31+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+    <hotelURL>/pubspec/scripts/eap.asp?GOTO=HotDetails&amp;Hotelid=26061&amp;numadult=1&amp;merchtext=Holiday+sale!+Stay+four+nights,+save+40%25+on+your+stay.+Rates+from+$67+valid+for+stays+October+22+through+December+31+Book+today+and+save!</hotelURL>
+  </row>
+  <row hotelid="11832" destID="178309" TLA="NYC" region="Central" location="St. Louis" rank="1" price="yes" moreURL="no">
+    <name>Crowne Plaza Riverfront at the Arch</name>
+    <travelerRating>3.8</travelerRating>
+    <starRating>35</starRating>
+    <priceCol2>476</priceCol2>
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PkgHotDetails&amp;DestID=178309:STL&amp;HotelID=11832&amp;NumAdult=2&amp;Merchtext=Holiday+sale!+Stay+two+nights,+save+40%25+on+your+stay.+Sample+4-night+air/hotel+package+from+New+York+to+St.+ Louis+from+$476+is+based+on+travel+October+22+through+December+31+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+  </row>
+  <row hotelid="25385" destID="178309" TLA="NYC" region="Central" location="St. Louis" rank="1" price="yes" moreURL="no">
+    <name>Omni Majestic Hotel</name>
+    <travelerRating>4.2</travelerRating>
+    <starRating>35</starRating>
+    <priceCol1>159</priceCol1>
+    <priceCol2>611</priceCol2>
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PkgHotDetails&amp;DestID=178309:STL&amp;HotelID=25385&amp;NumAdult=2&amp;Merchtext=Holiday+sale!+Stay+four+nights,+save+40%25+on+your+stay.+Sample+4-night+air/hotel+package+from+New+York+to+St.+ Louis+from+$611+is+based+on+travel+October+22+through+December+31+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+    <hotelURL>/pubspec/scripts/eap.asp?GOTO=HotDetails&amp;Hotelid=25385&amp;numadult=1&amp;merchtext=Holiday+sale!+Stay+four+nights,+save+40%25+on+your+stay.+Rates+from+$159+valid+for+stays+October+22+through+December+31+Book+today+and+save!</hotelURL>
+  </row>
+  <row hotelid="4672" destID="178309" TLA="NYC" region="Central" location="St. Louis" rank="1" price="yes" moreURL="no">
+    <name>Renaissance St. Louis Airport</name>
+    <travelerRating>4.5</travelerRating>
+    <starRating>35</starRating>
+    <priceCol2>432</priceCol2>
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PkgHotDetails&amp;DestID=178309:STL&amp;HotelID=4672&amp;NumAdult=2&amp;Merchtext=Holiday+sale!+Stay+four+nights,+save+40%25+on+your+stay.+Sample+4-night+air/hotel+package+from+New+York+to+St.+ Louis+from+$432+is+based+on+travel+October+22+through+December+31+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+  </row>
+  <row hotelid="3287" destID="178248" TLA="NYC" region="Central" location="Chicago" rank="2" price="yes" moreURL="no">
+    <name>Chicago O'Hare Garden Hotel</name>
+    <travelerRating>2.7</travelerRating>
+    <starRating>30</starRating>
+    <priceCol1>77</priceCol1>
+    <priceCol2>356</priceCol2>
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PkgHotDetails&amp;DestID=178248:CHI&amp;HotelID=3287&amp;NumAdult=2&amp;Merchtext=Holiday+sale!+Stay+three+nights,+save+30%25+on+your+stay.+Sample+4-night+air/hotel+package+from+New+York+to+Chicago+from+$356+is+based+on+travel+October+22+through+December+31+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+    <hotelURL>/pubspec/scripts/eap.asp?GOTO=HotDetails&amp;Hotelid=3287&amp;numadult=1&amp;merchtext=Holiday+sale!+Stay+three+nights,+save+30%25+on+your+stay.+Rates+from+$77+valid+for+stays+October+22+through+December+31+Book+today+and+save!</hotelURL>
+  </row>
+  <row hotelid="892669" destID="178248" TLA="NYC" region="Central" location="Chicago" rank="2" price="yes" moreURL="no">
+    <name>City Suites Hotel</name>
+    <travelerRating>3.8</travelerRating>
+    <starRating>25</starRating>
+    <priceCol1>200</priceCol1>
+    <priceCol2>705</priceCol2>
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PkgHotDetails&amp;DestID=178248:CHI&amp;HotelID=892669&amp;NumAdult=2&amp;Merchtext=Holiday+sale!+Stay+three+nights,+save+30%25+on+your+stay.+Sample+4-night+air/hotel+package+from+New+York+to+Chicago+from+$705+is+based+on+travel+October+22+through+December+31+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+    <hotelURL>/pubspec/scripts/eap.asp?GOTO=HotDetails&amp;Hotelid=892669&amp;numadult=1&amp;merchtext=Holiday+sale!+Stay+three+nights,+save+30%25+on+your+stay.+Rates+from+$200+valid+for+stays+October+22+through+December+31+Book+today+and+save!</hotelURL>
+  </row>
+  <row hotelid="6420" destID="178248" TLA="NYC" region="Central" location="Chicago" rank="2" price="yes" moreURL="no">
+    <name>Raffaello Hotel Chicago</name>
+    <travelerRating>4.1</travelerRating>
+    <starRating>40</starRating>
+    <priceCol1>219</priceCol1>
+    <priceCol2>763</priceCol2>
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PkgHotDetails&amp;DestID=178248:CHI&amp;HotelID=6420&amp;NumAdult=2&amp;Merchtext=Holiday+sale!+Stay+three+nights,+save+30%25+on+your+stay.+Sample+4-night+air/hotel+package+from+New+York+to+Chicago+from+$763+is+based+on+travel+October+22+through+December+31+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+    <hotelURL>/pubspec/scripts/eap.asp?GOTO=HotDetails&amp;Hotelid=6420&amp;numadult=1&amp;merchtext=Holiday+sale!+Stay+three+nights,+save+30%25+on+your+stay.+Rates+from+$219+valid+for+stays+October+22+through+December+31+Book+today+and+save!</hotelURL>
+  </row>
+  <row hotelid="864219" destID="178248" TLA="NYC" region="Central" location="Chicago" rank="2" price="yes" moreURL="no">
+    <name>Sofitel Chicago Water Tower</name>
+    <travelerRating>4.9</travelerRating>
+    <starRating>45</starRating>
+    <priceCol1>255</priceCol1>
+    <priceCol2>686</priceCol2>
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PkgHotDetails&amp;DestID=178248:CHI&amp;HotelID=864219&amp;NumAdult=2&amp;Merchtext=Holiday+sale!+Stay+three+nights,+save+30%25+on+your+stay.+Sample+4-night+air/hotel+package+from+New+York+to+Chicago+from+$686+is+based+on+travel+October+22+through+December+31+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+    <hotelURL>/pubspec/scripts/eap.asp?GOTO=HotDetails&amp;Hotelid=864219&amp;numadult=1&amp;merchtext=Holiday+sale!+Stay+three+nights,+save+30%25+on+your+stay.+Rates+from+$255+valid+for+stays+October+22+through+December+31+Book+today+and+save!</hotelURL>
+  </row>
+  <row hotelid="27778" destID="178287" TLA="CHI" region="Central" location="Minneapolis" rank="2" price="yes" moreURL="no">
+    <name>Country Inn &amp; Suites Plymouth</name>
+    <travelerRating>3.5</travelerRating>
+    <starRating>25</starRating>
+    <priceCol1>114</priceCol1>
+    <priceCol2>395</priceCol2>
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PkgHotDetails&amp;DestID=178287:MSP&amp;HotelID=27778&amp;NumAdult=2&amp;Merchtext=Holiday+sale!+Sample+4-night+air/hotel+package+from+Chicago+to+Minneapolis+from+$395+is+based+on+travel+October+22+through+December+31+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+    <hotelURL>/pubspec/scripts/eap.asp?GOTO=HotDetails&amp;Hotelid=27778&amp;numadult=1&amp;merchtext=Holiday+sale!+Rates+from+$114+valid+for+stays+October+22+through+December+31+Book+today+and+save!</hotelURL>
+  </row>
+  <row hotelid="2916" destID="178303" TLA="CHI" region="Central" location="San Antonio" rank="2" price="yes" moreURL="no">
+    <name>Emily Morgan Hotel</name>
+    <travelerRating>3.9</travelerRating>
+    <starRating>40</starRating>
+    <priceCol1>146</priceCol1>
+    <priceCol2>621</priceCol2>
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PkgHotDetails&amp;DestID=178303:SAT&amp;HotelID=2916&amp;NumAdult=2&amp;Merchtext=Holiday+sale!+Sample+4-night+air/hotel+package+from+Chicago+to+San+Antonio +from+$621+is+based+on+travel+October+22+through+December+31+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+    <hotelURL>/pubspec/scripts/eap.asp?GOTO=HotDetails&amp;Hotelid=2916&amp;numadult=1&amp;merchtext=Holiday+sale!+Rates+from+$146+valid+for+stays+October+22+through+December+31+Book+today+and+save!</hotelURL>
+  </row>
+  <row hotelid="897388" destID="178303" TLA="CHI" region="Central" location="San Antonio" rank="2" price="yes" moreURL="no">
+    <name>Hotel Valencia</name>
+    <travelerRating>4.3</travelerRating>
+    <starRating>40</starRating>
+    <priceCol1>160</priceCol1>
+    <priceCol2>646</priceCol2>
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PkgHotDetails&amp;DestID=178303:SAT&amp;HotelID=897388&amp;NumAdult=2&amp;Merchtext=Holiday+sale!+Sample+4-night+air/hotel+package+from+Chicago+to+San+Antonio +from+$646+is+based+on+travel+October+22+through+December+31+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+    <hotelURL>/pubspec/scripts/eap.asp?GOTO=HotDetails&amp;Hotelid=897388&amp;numadult=1&amp;merchtext=Holiday+sale!+Rates+from+$160+valid+for+stays+October+22+through+December+31+Book+today+and+save!</hotelURL>
+  </row>
+  <row hotelid="10636" destID="178303" TLA="CHI" region="Central" location="San Antonio" rank="2" price="yes" moreURL="no">
+    <name>Hyatt Regency San Antonio (Riverwalk)</name>
+    <travelerRating>4.5</travelerRating>
+    <starRating>40</starRating>
+    <priceCol1>219</priceCol1>
+    <priceCol2>681</priceCol2>
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PkgHotDetails&amp;DestID=178303:SAT&amp;HotelID=10636&amp;NumAdult=2&amp;Merchtext=Holiday+sale!+Sample+4-night+air/hotel+package+from+Chicago+to+San+Antonio +from+$681+is+based+on+travel+October+22+through+December+31+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+    <hotelURL>/pubspec/scripts/eap.asp?GOTO=HotDetails&amp;Hotelid=10636&amp;numadult=1&amp;merchtext=Holiday+sale!+Rates+from+$219+valid+for+stays+October+22+through+December+31+Book+today+and+save!</hotelURL>
+  </row>
+  <row hotelid="19913" destID="178309" TLA="NYC" region="Central" location="St. Louis" rank="2" price="yes" moreURL="no">
+    <name>Millennium Hotel St. Louis</name>
+    <travelerRating>3.3</travelerRating>
+    <starRating>30</starRating>
+    <priceCol1>79</priceCol1>
+    <priceCol2>458</priceCol2>
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PkgHotDetails&amp;DestID=178309:STL&amp;HotelID=19913&amp;NumAdult=2&amp;Merchtext=Holiday+sale!+Stay+three+nights,+save+30%25+on+your+stay.+Sample+4-night+air/hotel+package+from+New+York+to+St.+ Louis+from+$458+is+based+on+travel+October+22+through+December+31+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+    <hotelURL>/pubspec/scripts/eap.asp?GOTO=HotDetails&amp;Hotelid=19913&amp;numadult=1&amp;merchtext=Holiday+sale!+Stay+three+nights,+save+30%25+on+your+stay.+Rates+from+$79+valid+for+stays+October+22+through+December+31+Book+today+and+save!</hotelURL>
+  </row>
+  <row region="Central" location="Austin" rank="0" price="yes" moreURL="yes">
+    <priceCol1>93</priceCol1>
+    <priceCol2>444</priceCol2>
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PACKAGEWIZ&amp;DestId=178234:AUS&amp;Hotelids=425573,7518,51120,20904&amp;numadult=2&amp;Merchtext=Holiday+sale!+Stay+4+nights,+save+40%25+Sample+-night+air/hotel+package+from+Chicago+to+Austin+from+$444+is+based+on+travel+October+22+through+December+31.+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+    <hotelURL>/pubspec/scripts/eap.asp?GOTO=HotGroup&amp;GroupName=Austin&amp;Hotelid1=425573&amp;Hotelid2=7518&amp;Hotelid3=51120&amp;Hotelid4=20904</hotelURL>
+  </row>
+  <row region="Central" location="Dallas" rank="0" price="yes" moreURL="yes">
+    <priceCol1>78</priceCol1>
+    <priceCol2>385</priceCol2>
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PACKAGEWIZ&amp;DestId=178253:DFW&amp;Hotelids=18280,18575,8562,5900&amp;numadult=2&amp;Merchtext=Holiday+sale!+Stay+4+nights,+save+40%25+Sample+-night+air/hotel+package+from+Chicago+to+Dallas+from+$385+is+based+on+travel+October+22+through+December+31.+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+    <hotelURL>/pubspec/scripts/eap.asp?GOTO=HotGroup&amp;GroupName=Dallas&amp;Hotelid1=18280&amp;Hotelid2=18575&amp;Hotelid3=8562&amp;Hotelid4=5900</hotelURL>
+  </row>
+  <row region="Central" location="Detroit" rank="0" price="yes" moreURL="yes">
+    <priceCol1>78</priceCol1>
+    <priceCol2>243</priceCol2>
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PACKAGEWIZ&amp;DestId=178255:DTT&amp;Hotelids=848357,12886,5179,14621&amp;numadult=2&amp;Merchtext=Holiday+sale!+Stay+4+nights,+save+40%25+Sample+-night+air/hotel+package+from+Chicago+to+Detroit+from+$243+is+based+on+travel+October+22+through+December+31.+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+    <hotelURL>/pubspec/scripts/eap.asp?GOTO=HotGroup&amp;GroupName=Detroit&amp;Hotelid1=848357&amp;Hotelid2=12886&amp;Hotelid3=5179&amp;Hotelid4=14621"</hotelURL>
+  </row>
+  <row region="Central" location="Gatlinburg" rank="0" price="yes" moreURL="yes">
+    <priceCol1>50</priceCol1>
+    <priceCol2>331</priceCol2>
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PACKAGEWIZ&amp;DestId=601691:TYS&amp;Hotelids=1676588,1621879,1545619,1564454,9897&amp;numadult=2&amp;Merchtext=Holiday+sale!+Stay+4+nights,+save+40%25+Sample+-night+air/hotel+package+from+Chicago+to+Gatlinburg+from+$331+is+based+on+travel+October+22+through+December+31.+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+    <hotelURL>/pubspec/scripts/eap.asp?GOTO=HotGroup&amp;GroupName=Gatlinburg&amp;Hotelid1=1676588&amp;Hotelid2=1621879&amp;Hotelid3=1545619&amp;Hotelid4=1564454&amp;Hotelid5=9897</hotelURL>
+  </row>
+  <row region="Central" location="Kansas City" rank="0" price="yes" moreURL="yes">
+    <priceCol1>52</priceCol1>
+    <priceCol2>280</priceCol2>
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PACKAGEWIZ&amp;DestId=178273:MCI&amp;Hotelids=1122427,1010,16088,2700,1640113,4339,21911,856358,281053&amp;Merchtext=Holiday+sale!+Stay+4+nights,+save+40%25+Sample+-night+air/hotel+package+from+Chicago+to+Kansas+City+from+$280+is+based+on+travel+October+22+through+December+31.+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+    <hotelURL>/pubspec/scripts/eap.asp?GOTO=HotGroup&amp;GroupName=Kansas+City&amp;Hotelid1=1122427&amp;Hotelid2=1010&amp;Hotelid3=16088&amp;Hotelid4=2700&amp;Hotelid5=1640113'&amp;Hotelid6=4339&amp;Hotelid7=21911&amp;Hotelid8=856358&amp;Hotelid9=281053</hotelURL>
+  </row>
+  <row region="Central" location="Memphis" rank="0" price="yes" moreURL="yes">
+    <priceCol1>53</priceCol1>
+    <priceCol2>343</priceCol2>
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PACKAGEWIZ&amp;DestId=178284:MEM&amp;Hotelids=571601,41326,84382&amp;numadult=2&amp;Merchtext=Holiday+sale!+Stay+4+nights,+save+40%25+Sample+-night+air/hotel+package+from+Chicago+to+Memphis+from+$343+is+based+on+travel+October+22+through+December+31.+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+    <hotelURL>/pubspec/scripts/eap.asp?GOTO=HotGroup&amp;GroupName=Memphis&amp;Hotelid1=571601&amp;Hotelid2=41326&amp;Hotelid3=84382</hotelURL>
+  </row>
+  <row region="Central" location="Nashville" rank="0" price="yes" moreURL="yes">
+    <priceCol1>68</priceCol1>
+    <priceCol2>323</priceCol2>
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PACKAGEWIZ&amp;DestId=178291:BNA&amp;Hotelids=4351,18190,459522,15908,5505,517452,458263,25845&amp;Merchtext=Holiday+sale!+Stay+4+nights,+save+40%25+Sample+-night+air/hotel+package+from+New+York+City+to+Nashville+from+$323+is+based+on+travel+October+22+through+December+31.+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+    <hotelURL>/pubspec/scripts/eap.asp?GOTO=HotGroup&amp;GroupName=Nashville&amp;Hotelid1=4351&amp;Hotelid2=18190&amp;Hotelid3=459522&amp;Hotelid4=15908&amp;Hotelid5=5505'&amp;Hotelid6=517452&amp;Hotelid7=458263&amp;Hotelid8=25845</hotelURL>
+  </row>
+  <row region="Central" location="New Orleans" rank="0" price="yes" moreURL="yes">
+    <priceCol1>51</priceCol1>
+    <priceCol2>360</priceCol2>
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PACKAGEWIZ&amp;DestId=178292:MSY&amp;Hotelids=40852,792974,6309,14429,24188&amp;numadult=2&amp;Merchtext=Holiday+sale!+Stay+4+nights,+save+40%25+Sample+-night+air/hotel+package+from+Chicago+to+New+Orleans+from+$360+is+based+on+travel+October+22+through+December+31.+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+    <hotelURL>/pubspec/scripts/eap.asp?GOTO=HotGroup&amp;GroupName=New+Orleans&amp;Hotelid1=40852&amp;Hotelid2=792974&amp;Hotelid3=6309&amp;Hotelid4=14429&amp;Hotelid5=24188</hotelURL>
+  </row>
+  <row region="Central" location="Chicago" rank="0" price="no" moreURL="yes">
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PACKAGEWIZ&amp;DestId=178248:CHI&amp;Hotelids=19722,6420,864219,892669,3287,21142,21152,897168&amp;Merchtext=Holiday+sale!+Stay+4+nights,+save+40%25+Sample+-night+air/hotel+package+from+New+York+City+to+Chicago+from+$356+is+based+on+travel+October+22+through+December+31.+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+    <hotelURL>/pubspec/scripts/eap.asp?GOTO=HotGroup&amp;GroupName=Chicago&amp;Hotelid1=19722&amp;Hotelid2=6420&amp;Hotelid3=864219&amp;Hotelid4=892669&amp;Hotelid5=3287&amp;Hotelid6=21142&amp;Hotelid7=21152&amp;Hotelid8=897168</hotelURL>
+  </row>
+  <row region="Central" location="Houston" rank="0" price="no" moreURL="yes">
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PACKAGEWIZ&amp;DestId=178265:HOU&amp;Hotelids=128,988800,17746,1085637,26143,13295&amp;numadult=2&amp;Merchtext=Holiday+sale!+Stay+4+nights,+save+40%25+Sample+-night+air/hotel+package+from+Chicago+to+Houston+from+$503+is+based+on+travel+October+22+through+December+31.+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+    <hotelURL>/pubspec/scripts/eap.asp?GOTO=HotGroup&amp;GroupName=Houston&amp;Hotelid1=128&amp;Hotelid2=988800&amp;Hotelid3=17746&amp;Hotelid4=1085637&amp;Hotelid5=26143'&amp;Hotelid6=13295</hotelURL>
+  </row>
+  <row region="Central" location="St. Louis" rank="0" price="no" moreURL="yes">
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PACKAGEWIZ&amp;DestId=178309:STL&amp;Hotelids=26061,25385,11832,4672,19913,14877,4507&amp;Merchtext=Holiday+sale!+Stay+4+nights,+save+40%25+Sample+-night+air/hotel+package+from+Chicago+to+St.+Louis+from+$327+is+based+on+travel+October+22+through+December+31.+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+    <hotelURL>/pubspec/scripts/eap.asp?GOTO=HotGroup&amp;GroupName=St.+Louis&amp;Hotelid1=26061&amp;Hotelid2=25385&amp;Hotelid3=11832&amp;Hotelid4=4672&amp;Hotelid5=19913&amp;Hotelid6=14877&amp;Hotelid7=4507</hotelURL>
+  </row>
+  <row region="Central" location="Minneapolis" rank="0" price="no" moreURL="yes">
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PACKAGEWIZ&amp;DestId=178287:MSP&amp;Hotelids=1682,14303,27778,338&amp;numadult=2&amp;Merchtext=Holiday+sale!+Stay+4+nights,+save+40%25+Sample+-night+air/hotel+package+from+Chicago+to+Minneapolis+from+$274+is+based+on+travel+October+22+through+December+31.+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+    <hotelURL>/pubspec/scripts/eap.asp?GOTO=HotGroup&amp;GroupName=Minneapolis&amp;Hotelid1=1682&amp;Hotelid2=14303&amp;Hotelid3=27778&amp;Hotelid4=338</hotelURL>
+  </row>
+  <row region="Central" location="San Antonio" rank="0" price="no" moreURL="yes">
+    <pkgURL>/pubspec/scripts/eap.asp?GOTO=PACKAGEWIZ&amp;DestId=178303:SAT&amp;Hotelids=13389,897388,2916,10636&amp;numadult=2&amp;Merchtext=Holiday+sale!+Stay+4+nights,+save+40%25+Sample+-night+air/hotel+package+from+Chicago+to+San+Antonio+from+$495+is+based+on+travel+October+22+through+December+31.+Sample+prices+are+based+on+double+occupancy+and+vary+by+dates+of+travel,+availability,+and+departure+city.</pkgURL>
+    <hotelURL>/pubspec/scripts/eap.asp?GOTO=HotGroup&amp;GroupName=San+Antonio&amp;Hotelid1=13389&amp;Hotelid2=897388&amp;Hotelid3=2916&amp;Hotelid4=10636</hotelURL>
+  </row>
+</PriceModule>

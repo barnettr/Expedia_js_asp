@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Google Maps</title>
+    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAPDUET0Qt7p2VcSk6JNU1sBRRwPhutbWBmyj82Go_H6JlE7EvFBSKFFFHFePAwvib9UM0geoA3Pgafw" type="text/javascript"></script>
+  </head>
+  <body onunload="GUnload()">
+
+
+    <!-- the divs where the maps will be displayed -->
+	<table border="1" cellpadding="10" width="80%">
+	<tr align="center"><th rowspan="4" clospan="4">Year</th><!--- <th colspan="3">Sales</th> ---></tr>
+	<tr align="center"><th>North</th><th>South</th><th>Total</th></tr>
+	<tr align="center"><!--- <td>2000</td> ---><td>$10M</td><td>$8M</td><td>$18M</td></tr>
+	<tr align="center"><!--- <td>2001</td> ---><td>$14M</td><td>$11M</td><td>$25M</td></tr>
+	</table>
+
+
+    <!--- <div id="minimap" style="position:absolute;top:30px;left:10px;width:190px; height: 190px"></div>
+    <div id="map" style="position:absolute;top:30px;left:220px;width:550px; height: 550px"></div>
+    <a href="http://www.econym.demon.co.uk/googlemaps/dualmaps.htm">Back to the tutorial page</a> --->
+
+    <!-- fail nicely if the browser has no Javascript -->
+    <noscript><b>JavaScript must be enabled in order for you to use Google Maps.</b> 
+      However, it seems JavaScript is either disabled or not supported by your browser. 
+      To view Google Maps, enable JavaScript by changing your browser options, and then 
+      try again.
+    </noscript>
+
+
+    <script type="text/javascript">
+    //<![CDATA[
+
+    if (GBrowserIsCompatible()) {
+
+      function createMarker(point) {
+        map.addOverlay(new GMarker(point));
+      }
+      
+      // ===== Setup The Maps =====
+      
+      // Display the main map, with some controls and set the initial location 
+      var map = new GMap2(document.getElementById("map"));
+      map.addControl(new GLargeMapControl());
+      map.addControl(new GMapTypeControl());
+      map.setCenter(new GLatLng(53.25,-2.35), 9);
+    
+      // Set up three markers on the main map
+    
+      createMarker(new GLatLng(53.1,-2.14));
+      createMarker(new GLatLng(53.65,-2.42));
+      createMarker(new GLatLng(53.15,-2.33));
+      
+      // create the crosshair icon, which will indicate where we are on the minimap
+      // Lets not bother with a shadow
+      var Icon = new GIcon();
+      Icon.image = "xhair.png";
+      Icon.iconSize = new GSize(21, 21);
+      Icon.shadowSize = new GSize(0,0);
+      Icon.iconAnchor = new GPoint(11, 11);
+      Icon.infoWindowAnchor = new GPoint(11, 11);
+      Icon.infoShadowAnchor = new GPoint(11, 11);
+
+      // Create the minimap
+      var minimap = new GMap2(document.getElementById("minimap"));
+      minimap.setCenter(new GLatLng(53.25,-2.35), 3);
+      
+      // Add the crosshair marker at the centre of teh minimap and keep a reference to it
+      
+      var xhair = new GMarker(minimap.getCenter(), Icon);            
+      minimap.addOverlay(xhair);
+      
+      
+      // ====== Handle the Map movements ======
+      
+      // Variables that log whether we are currently causing the maps to be moved
+    
+      var map_moving = 0;
+      var minimap_moving = 0;
+    
+      // This function handles what happens when the main map moves
+      // If we arent moving it (i.e. if the user is moving it) move the minimap to match
+      // and reposition the crosshair back to the centre
+      function Move(){
+        minimap_moving = true;
+	if (map_moving == false) {
+	  minimap.setCenter(map.getCenter());
+	  xhair.setPoint(map.getCenter());
+	  xhair.redraw(true);
+	}
+	minimap_moving = false;
+      }
+      // This function handles what happens when the mini map moves
+      // If we arent moving it (i.e. if the user is moving it) move the main map to match
+      // and reposition the crosshair back to the centre
+      function MMove(){
+        map_moving = true;
+	if (minimap_moving == false) {
+	  map.setCenter(minimap.getCenter());
+	  xhair.setPoint(minimap.getCenter());
+	  xhair.redraw(true);
+	}
+	map_moving = false;
+      }
+      
+      // Listen for when the user moves either map
+      GEvent.addListener(map, 'move', Move);
+      GEvent.addListener(minimap, 'moveend', MMove);
+    }
+
+    // display a warning if the browser was not compatible
+    else {
+      alert("Sorry, the Google Maps API is not compatible with this browser");
+    }
+
+    //]]>
+    </script>
+  </body>
+
+</html>
+
+
+
+

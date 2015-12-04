@@ -1,0 +1,316 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
+    <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>My Google Maps Hack</title>
+    <style type="text/css">    
+        v\:* {      
+            behavior:url(#default#VML);    
+        }    
+    </style>
+    <script src="http://maps.google.com/maps?file=api&amp;v=2.x&amp;key=ABQIAAAABmNryPC8UIQvME_k-FCJOBR7ZZW6X9xM60x-wMijd8l3lV3MFhQqEW8UN0vqJOKfft-gXcwijsnuNA"
+      type="text/javascript"></script>
+    
+    <script type="text/javascript">
+    //<![CDATA[
+    
+    // global arrays to hold copies of the markers and html used by the side_bar
+    var gmarkers = [];
+    var htmls = [];
+
+    // This function picks up the side_bar click and opens the corresponding info window
+    function myclick(i, lat, lng) 
+    {
+        gmarkers[i].openInfoWindowHtml(htmls[i]);
+        if (i == 0)
+        {
+            map.setCenter(new GLatLng(lat,lng), 3);
+        }
+        if (i == 1)
+        {
+            map.setCenter(new GLatLng(lat,lng), 3);
+        }
+        if (i == 2)
+        {
+            map.setCenter(new GLatLng(lat,lng), 3);
+        }
+        if (i == 3)
+        {
+            map.setCenter(new GLatLng(lat,lng), 3);
+        }
+        if (i == 4)
+        {
+            map.setCenter(new GLatLng(lat,lng), 3);
+        }
+        if (i == 5)
+        {
+            map.setCenter(new GLatLng(lat,lng), 3);
+        }
+        if (i == 6)
+        {
+            map.setCenter(new GLatLng(lat,lng), 3);
+        }
+        
+    }
+    
+    function myzoom(a) 
+    {
+        map.setZoom(map.getZoom() + a);
+    }
+    
+    var map;
+    var geoXml = new GGeoXml("http://mapgadgets.googlepages.com/cta.kml");
+    function onLoad() 
+    {
+        if (GBrowserIsCompatible()) 
+        {
+            // this variable will collect the html which will eventually be placed in the side_bar
+      		var baseIcon = new GIcon();
+            baseIcon.iconSize = new GSize(22,22);
+            baseIcon.shadowSize = new GSize(49,22);
+            baseIcon.iconAnchor = new GPoint(16,32);
+            baseIcon.infoWindowAnchor = new GPoint(16,0);
+          
+            var gMarker = new GIcon(baseIcon, "http://maps.google.com/mapfiles/kml/pal3/icon19.png", null, "http://maps.google.com/mapfiles/kml/pal3/icon19s.png");
+            //var gMarker = new GIcon(baseIcon, "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png", null, "");
+      		
+      		var Icon = new GIcon();
+            Icon.image = "xhair.png";
+            Icon.iconSize = new GSize(33, 24);
+            Icon.shadowSize = new GSize(0,0);
+            Icon.iconAnchor = new GPoint(16, 11);
+            Icon.infoWindowAnchor = new GPoint(11, 11);
+            Icon.infoShadowAnchor = new GPoint(11, 11);
+      		
+      		var side_bar_html = "";
+      		var i = 0;
+
+      		// A function to create the marker and set up the event window
+      		function createMarker(point,name,html,icon) 
+			{
+        		var marker = new GMarker(point,icon);
+        		GEvent.addListener(marker, "click", function() {
+          		marker.openInfoWindowHtml(html);
+        		});
+        		// save the info we need to use later for the side_bar
+        		gmarkers[i] = marker;
+        		htmls[i] = html;
+        		// add a line to the side_bar html
+        		side_bar_html += '<a href="javascript:myclick(' + i + ','+ lat + ',' + lng + ')">' + name + '</a><br>';
+        		i++;
+        	    return marker;
+      		}
+            
+            map = new GMap2(document.getElementById("map"));      
+            map.addControl(new GLargeMapControl());
+            map.addControl(new GMapTypeControl());    
+            //map.setCenter(new GLatLng(35.491939,-93.44970000000001), 1, G_HYBRID_MAP);
+            map.setCenter(new GLatLng(35.491939,-93.44970000000001), 1);    
+            map.addOverlay(geoXml); 
+              
+            var point = new GLatLng(55.833192,23.0493);
+            var lat = 55.833192;
+            var lng = 23.0493;
+            var marker = createMarker(point,"<strong>Europe</strong>","<table border='0' cellpadding='0' cellspacing='0' style='width:250px;'><tr><td align='left' valign='top' style='font-family: verdana; font-size: 0.8em; color: #000000;'><strong>Europe</strong></td><td align='right' style='padding-right:16px;'><img src='Europe.jpg'></td></tr><tr><td align='left' colspan='2' style='font-family: verdana; font-size: 0.8em; color: #000000; padding-top:4px;'><p>Some stuff to display in the Info Window</p></td></tr></table>", gMarker)
+            map.addOverlay(marker);
+
+            var point = new GLatLng(12.06526,-61.744888);
+            var lat = 12.06526;
+            var lng = -61.744888;
+            var marker = createMarker(point,"<strong>Caribbean</strong>","<table border='0' cellpadding='0' cellspacing='0' style='width:250px;'><tr><td align='left' valign='top' style='font-family: verdana; font-size: 0.8em; color: #000000;'><strong>Caribbean</strong></td><td align='right' style='padding-right:16px;'><img src='Caribbean.jpg'></td></tr><tr><td align='left' colspan='2' style='font-family: verdana; font-size: 0.8em; color: #000000; padding-top:4px;'><p>Some stuff to display in the Info Window</p></td></tr></table>", gMarker)
+            map.addOverlay(marker);
+
+            var point = new GLatLng(-25.274398,133.775136);
+            var lat = -25.274398;
+            var lng = 133.775136;
+            var marker = createMarker(point,"<strong>Australia</strong>","<table border='0' cellpadding='0' cellspacing='0' style='width:250px;'><tr><td align='left' valign='top' style='font-family: verdana; font-size: 0.8em; color: #000000;'><strong>Commonwealth of Australia</strong></td><td align='right' style='padding-right:16px;'><img src='Australia.jpg'></td></tr><tr><td align='left' colspan='2' style='font-family: verdana; font-size: 0.8em; color: #000000; padding-top:4px;'><p>Some stuff to display in the Info Window</p></td></tr></table>", gMarker)
+            map.addOverlay(marker);
+            
+            var point = new GLatLng(25.289724,108.3307);
+            var lat = 25.289724;
+            var lng = 108.3307;
+            var marker = createMarker(point,"<strong>Asia</strong>","<table border='0' cellpadding='0' cellspacing='0' style='width:250px;'><tr><td align='left' valign='top' style='font-family: verdana; font-size: 0.8em; color: #000000;'><strong>Asia</strong></td><td align='right' style='padding-right:16px;'><img src='Asia.jpg'></td></tr><tr><td align='left' colspan='2' style='font-family: verdana; font-size: 0.8em; color: #000000; padding-top:4px;'><p>Some stuff to display in the Info Window</p></td></tr></table>", gMarker)
+            map.addOverlay(marker);
+            
+            var point = new GLatLng(35.491939,-93.44970000000001);
+            var lat = 35.491939;
+            var lng = -93.44970000000001;
+            var marker = createMarker(point,"<strong>North America</strong>","<table border='0' cellpadding='0' cellspacing='0' style='width:250px;'><tr><td align='left' valign='top' style='font-family: verdana; font-size: 0.8em; color: #000000;'><strong>North America</strong></td><td align='right' style='padding-right:16px;'><img src='NorthAmerica.jpg'></td></tr><tr><td align='left' colspan='2' style='font-family: verdana; font-size: 0.8em; color: #000000; padding-top:4px;'><p>Some stuff to display in the Info Window</p></td></tr></table>", gMarker)
+            map.addOverlay(marker);
+            
+            var point = new GLatLng(23.885942,45.079162);
+            var lat = 23.885942;
+            var lng = 45.079162;
+            var marker = createMarker(point,"<strong>United Arab Emirates</strong>","<table border='0' cellpadding='0' cellspacing='0' style='width:250px;'><tr><td align='left' valign='top' style='font-family: verdana; font-size: 0.8em; color: #000000;'><strong>United Arab Emirates</strong></td><td align='right' style='padding-right:16px;'><img src='UAE.jpg'></td></tr><tr><td align='left' colspan='2' style='font-family: verdana; font-size: 0.8em; color: #000000; padding-top:4px;'><p>Some stuff to display in the Info Window</p></td></tr></table>", gMarker)
+            map.addOverlay(marker);
+            
+            var point = new GLatLng(0.213671,16.98485);
+            var lat = 0.213671;
+            var lng = 16.98485;
+            var marker = createMarker(point,"<strong>Africa</strong>","<table border='0' cellpadding='0' cellspacing='0' style='width:250px;'><tr><td align='left' valign='top' style='font-family: verdana; font-size: 0.8em; color: #000000;'><strong>Africa</strong></td><td align='right' style='padding-right:16px;'><img src='Africa.jpg'></td></tr><tr><td align='left' colspan='2' style='font-family: verdana; font-size: 0.8em; color: #000000; padding-top:4px;'><p>Some stuff to display in the Info Window</p></td></tr></table>", gMarker)
+            map.addOverlay(marker);
+            
+            document.getElementById("side_bar").innerHTML = side_bar_html;
+            
+            var minimap = new GMap2(document.getElementById("minimap"));
+            //minimap.setCenter(new GLatLng(35.491939,-93.44970000000001), 0, G_HYBRID_MAP);
+            minimap.setCenter(new GLatLng(35.491939,-93.44970000000001), 0);
+            
+            var xhair = new GMarker(minimap.getCenter(), Icon);            
+            minimap.addOverlay(xhair);
+            
+            var map_moving = 0;
+            var minimap_moving = 0;
+            
+            function Move()
+            {
+                minimap_moving = true;
+	            if (map_moving == false) 
+	            {
+	                minimap.setCenter(map.getCenter());
+	                xhair.setPoint(map.getCenter());
+	                xhair.redraw(true);
+	            }
+	            minimap_moving = false;
+            }
+            // This function handles what happens when the mini map moves
+            // If we arent moving it (i.e. if the user is moving it) move the main map to match
+            // and reposition the crosshair back to the centre
+            function MMove()
+            {
+                map_moving = true;
+	            if (minimap_moving == false) 
+	            {
+	                map.setCenter(minimap.getCenter());
+	                xhair.setPoint(minimap.getCenter());
+	                xhair.redraw(true);
+	            }
+	            map_moving = false;
+            }
+            // Listen for when the user moves either map
+            GEvent.addListener(map, 'move', Move);
+            GEvent.addListener(minimap, 'moveend', MMove);
+        }
+        else 
+        {
+            alert("Sorry, the Google Maps API is not compatible with this browser");
+        }
+    }
+    
+    var timerlen = 5;
+    var slideAniLen = 500;
+    var timerID = new Array();
+    var startTime = new Array();
+    var obj = new Array();
+    var endHeight = new Array();
+    var moving = new Array();
+    var dir = new Array();
+    
+    function slidedown(objname)
+    {
+        if(moving[objname])
+            return;
+        
+        if(document.getElementById(objname).style.display != "none")
+            return; // cannot slide down something that is already visible
+     
+        setTimeout('document.getElementById("bg").style.cssText = "display:block; width:105px; height:105; position:absolute; z-index:2; right:-1px; bottom:-1px; background-color:#ffffff; border-top:1px solid #979797; border-left:1px solid #979797;"', 500);
+        document.getElementById("mapDown").style.cssText = "display:block; border:0px;";
+        document.getElementById("mapUp").style.cssText = "display:none;";
+        moving[objname] = true;
+        dir[objname] = "down";
+        startslide(objname);
+    }
+     
+    function slideup(objname)
+    {
+        if(moving[objname])
+            return;
+     
+        if(document.getElementById(objname).style.display == "none")
+            return; // cannot slide up something that is already hidden
+        
+        document.getElementById("bg").style.cssText = "display:none;";
+        document.getElementById("mapDown").style.cssText = "display:none;";
+        document.getElementById("mapUp").style.cssText = "display:block; border:0px;";
+        moving[objname] = true;
+        dir[objname] = "up";
+        startslide(objname);
+    }
+    
+    function startslide(objname)
+    {
+        obj[objname] = document.getElementById(objname);
+        
+        endHeight[objname] = parseInt(obj[objname].style.height);
+        startTime[objname] = (new Date()).getTime();
+     
+        if(dir[objname] == "down")
+        {
+            obj[objname].style.height = "1px";
+        }
+     
+        obj[objname].style.display = "block";
+     
+        timerID[objname] = setInterval('slidetick(\'' + objname + '\');',timerlen);
+    }
+    
+    function slidetick(objname)
+    {
+        var elapsed = (new Date()).getTime() - startTime[objname];
+     
+        if (elapsed > slideAniLen)
+            endSlide(objname)
+        else 
+        {
+            var d =Math.round(elapsed / slideAniLen * endHeight[objname]);
+            if(dir[objname] == "up")
+                d = endHeight[objname] - d;
+     
+            obj[objname].style.height = d + "px";
+        }
+     
+        return;
+    }
+    
+    function endSlide(objname)
+    {
+        clearInterval(timerID[objname]);
+     
+        if(dir[objname] == "up")
+            obj[objname].style.display = "none";
+     
+        obj[objname].style.height = endHeight[objname] + "px";
+     
+        delete(moving[objname]);
+        delete(timerID[objname]);
+        delete(startTime[objname]);
+        delete(endHeight[objname]);
+        delete(obj[objname]);
+        delete(dir[objname]);
+     
+        return;
+    } 
+    //]]>
+    </script>
+    </head>
+    <body onload="onLoad()" onunload="GUnload()" onDblClick="javascript:myzoom(1)" style="font-family: arial; font-size: smaller; color: #000000;">
+        <br /><br /><br /><br />
+        <center>
+        <table style="width:650px;" cellpadding="0" cellspacing="0" border="0" align="center">
+            <tr>
+                <td style="border-left: solid 1px #979797; border-top: solid 1px #979797; border-bottom: solid 1px #979797; width:500px; position:relative;">
+                    <div id="map" style="width: 500px; height: 350px; border-right:1px solid #979797;"></div>
+                    <div id="bg" style="position:absolute; z-index:2; width:105; height:105; right:-1px; bottom:-1px; background-color:#ffffff; border-top:1px solid #979797; border-left:1px solid #979797;"><img src="transparent.gif" id="transparent" style="width:105; height:105px;" /></div>
+                    <div id="minimap" style="display:block; position:absolute; right:-1px; bottom:-1px; z-index:3; width:100px; height:100px; border-top:1px solid #979797; border-left:1px solid #979797; border-right:1px solid #979797; border-bottom:1px solid #979797;"></div>
+                    <div id="arrow" style="position:absolute; right:0px; bottom:0px; z-index:4;"><a href="#" onmousedown="slideup('minimap'); bg_slideup('bg');"><img alt="Collapse Mini Global Map" id="mapDown" style="border:0px;" src="map_up.gif" /></a><a href="#" onmousedown="slidedown('minimap'); bg_slidedown('bg');"><img alt="Open Mini Global Map" id="mapUp" style="border:0px; display:none;" src="map_down.gif" /></a></div>
+                </td>
+                <td align="left" valign="top" style="text-decoration: underline; color: #4444ff; font-size:0.8em; border-right: solid 1px #979797; border-top: solid 1px #979797; border-bottom: solid 1px #979797; width:150px;">
+                    <div id="side_bar" style="padding-left:12px; padding-top:10px; height:239px;"></div>
+                </td>
+            </tr>
+        </table>
+        </center>
+    </body>
+</html>

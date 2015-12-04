@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<email type="CM_P_01_" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2006-03-31T20:32:03" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003" xml:lang="en-us">
+	<ID issue="001"/>
+	<version name="PMI: Smaller Hero Graphic with Search Box and Single Offer box without Tertiary Offers">
+	<subjectText>Lorem ipsum dolar</subjectText>
+	<Template type="hleft" color="ffffff" crm="MER">
+		<eyebrowOffer state="yes" eyebrowText="lorem ipsum dolor:" link="http://www.expedia.com/daily/promos/flights/fare_sale_july2006/default.asp?" eyebrowBlurb="lorem ipsum dolor enim"/>
+		<navTabs>
+			<navigation state="flight"/>
+		</navTabs>
+		<heroModule size="sm" imgType="jpg" url="http://www.expedia.com/daily/promos/flights/fare_sale_july2006/default.asp?" altText="Lorem ipsum dolar"/>
+		<messageModule>
+			<headline>Header max 30 chars, bold, 16px, can wrap to next line</headline>
+			<para>Lorem ipsum dolar quia voluptas</para>
+			<para>Lorem ipsum dolar quia voluptas</para>
+		</messageModule>
+		<mainModule destOffer="no" package="yes" headlineText="yes" offers='yes' message='no'>
+			<headline>Lorem ipsum dolar</headline>
+			<para>Lorem ipsum dolar quia ma</para>
+			<offerGroup  destination="" link="" blurb="">
+				<offer text="Comfort Inn - Lake Buena Vista" star="0" blurb="from &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;$60&lt;/b&gt;&lt;/font&gt;/night" link="http://www.expedia.com/pubspec/scripts/eap.asp?"></offer>
+				<offer text="Book flight + hotel rates" star="0" blurb="from &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;$60&lt;/b&gt;&lt;/font&gt;/night" link="http://www.expedia.com/pubspec/scripts/eap.asp?"></offer>
+			</offerGroup>
+			<offerGroup  destination="" link="" blurb="">
+				<offer text="Comfort Inn - Lake Buena Vista" star="0" blurb="from &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;$60&lt;/b&gt;&lt;/font&gt;/night" link="http://www.expedia.com/pubspec/scripts/eap.asp?"></offer>
+				<offer text="Book flight + hotel rates" star="0" blurb="from &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;$60&lt;/b&gt;&lt;/font&gt;/night" link="http://www.expedia.com/pubspec/scripts/eap.asp?"></offer>
+			</offerGroup>
+			<offerGroup  destination="" link="" blurb="">
+				<offer text="Comfort Inn - Lake Buena Vista" star="0" blurb="from &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;$60&lt;/b&gt;&lt;/font&gt;/night" link="http://www.expedia.com/pubspec/scripts/eap.asp?"></offer>
+				<offer text="Book flight + hotel rates" star="0" blurb="from &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;$60&lt;/b&gt;&lt;/font&gt;/night" link="http://www.expedia.com/pubspec/scripts/eap.asp?"></offer>
+			</offerGroup>
+			<callToAction show="no" content="Book now!" link=""/>
+			<marketingXtras show="no">Book your flight today with confidence with Expedia's Best Price Guarantee.</marketingXtras>
+		</mainModule>
+		<mainModule destOffer="no" package="yes" headlineText="yes" offers='no' message='yes'>
+			<headline>Lorem ipsum dolar</headline>
+			<para>Lorem ipsum dolar quia ma </para>
+			<offerGroup  destination="" link="" blurb="">
+				<offer text="Comfort Inn - Lake Buena Vista" star="0" blurb="from &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;$60&lt;/b&gt;&lt;/font&gt;/night" link="http://www.expedia.com/pubspec/scripts/eap.asp?"></offer>
+				<offer text="Book flight + hotel rates" star="0" blurb="from &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;$60&lt;/b&gt;&lt;/font&gt;/night" link="http://www.expedia.com/pubspec/scripts/eap.asp?"></offer>
+			</offerGroup>
+			<offerGroup  destination="" link="" blurb="">
+				<offer text="Comfort Inn - Lake Buena Vista" star="0" blurb="from &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;$60&lt;/b&gt;&lt;/font&gt;/night" link="http://www.expedia.com/pubspec/scripts/eap.asp?"></offer>
+				<offer text="Book flight + hotel rates" star="0" blurb="from &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;$60&lt;/b&gt;&lt;/font&gt;/night" link="http://www.expedia.com/pubspec/scripts/eap.asp?"></offer>
+			</offerGroup>
+			<offerGroup  destination="" link="" blurb="">
+				<offer text="Comfort Inn - Lake Buena Vista" star="0" blurb="from &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;$60&lt;/b&gt;&lt;/font&gt;/night" link="http://www.expedia.com/pubspec/scripts/eap.asp?"></offer>
+				<offer text="Book flight + hotel rates" star="0" blurb="from &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;$60&lt;/b&gt;&lt;/font&gt;/night" link="http://www.expedia.com/pubspec/scripts/eap.asp?"></offer>
+			</offerGroup>
+			<callToAction show="yes" content="Book now!" link=""/>
+			<marketingXtras show="yes">Book your flight today with confidence with Expedia's Best Price Guarantee.</marketingXtras>
+		</mainModule>
+		<offerModule singleOffer="yes" offers="no" offerImages="yes" offerHeadline="yes" wizard="yes">
+			<headline>What's your family's vacation style...</headline>
+			<para>Are they thrill-seekers or beach bums?  Shop vacation by the theme and pick the perfect trip for your clan!</para>
+			<offer title="Bahamas cruise">
+				<textLine type="" url="http://www.expedia.com/pub/agent.dll?qscr=kdlk&amp;kstp=1&amp;kdid=13&amp;ksid=15&amp;klid=1&amp;">3 to 4 nights</textLine>
+				<textLine type="link" url="http://www.expedia.com/pub/agent.dll?qscr=kdlk&amp;kstp=1&amp;kdid=13&amp;ksid=15&amp;klid=1&amp;">from $259*</textLine>
+			</offer>
+			<offer title="Mexico cruise">
+				<textLine type="" url="URL GOES HERE">3 nights</textLine>
+				<textLine type="link" url="http://www.expedia.com/pub/agent.dll?qscr=kdlk&amp;kstp=1&amp;kdid=117&amp;ksid=13&amp;klid=1&amp;">from $299*</textLine>
+			</offer>
+			<offer title="Carribean cruise">
+				<textLine type="" url="URL GOES HERE">3 nights</textLine>
+				<textLine type="link" url="http://www.expedia.com/pub/agent.dll?qscr=kdlk&amp;kstp=1&amp;kdid=117&amp;ksid=13&amp;klid=1&amp;">from $299*</textLine>
+			</offer>
+			<offer title="California cruise">
+				<textLine type="" url="URL GOES HERE">3 nights</textLine>
+				<textLine type="link" url="http://www.expedia.com/pub/agent.dll?qscr=kdlk&amp;kstp=1&amp;kdid=117&amp;ksid=13&amp;klid=1&amp;">from $299*</textLine>
+			</offer>
+			<offer title="Texas cruise">
+				<textLine type="" url="URL GOES HERE">3 nights</textLine>
+				<textLine type="link" url="http://www.expedia.com/pub/agent.dll?qscr=kdlk&amp;kstp=1&amp;kdid=117&amp;ksid=13&amp;klid=1&amp;">from $299*</textLine>
+			</offer>
+			<searchWizard type="flight_hotel_dual" headline="Search and secure you low fare now." clientCode="" />
+			<bannerAd show="yes" link="http://www.expedia.com/daily/highlights/best-rate-guarantee/default.asp?" image="bpg_faresale_banner.jpg" altText="Best Price Guarantee." content=""/>
+		</offerModule>
+	</Template>
+	<specialRules type="TERMS AND CONDITIONS" show="yes">
+		Booking requirements: Fares above are based on required roundtrip booked for economy/coach travel. &lt;BR&gt;&lt;BR&gt;Travel dates: Fares are valid for travel to and from Florida between August 17 and October 1, 2006. Fares are valid for travel between August 17 and October 27, 2006 to and from originations and destinations outside Florida. &lt;BR&gt;&lt;BR&gt;Minimum/maximum stay: A one-night minimum stay is required for most fares. &lt;BR&gt;&lt;BR&gt;+Additional taxes/fees: Prices shown are for one adult and are subject to additional charges, including, without limitation: the September 11th Security Fee of $2.50 for each flight segment originating at a U.S. airport, with a maximum of up to $5 per one-way or $10 per roundtrip; Passenger Facility Charges of up to $18, depending on itinerary; Federal Segment Fees of $3.30 per segment. A segment is defined as a takeoff and a landing. &lt;BR&gt;&lt;BR&gt;Other conditions: Fares and rules are subject to change without notice. Seats are limited and may not be available on all flights/dates. Lower fares may be available to selected destinations. Tickets are nontransferable and nonrefundable. &lt;BR&gt;&lt;BR&gt;Itinerary changes: The return portion on roundtrip fares may be changed for a $100 fee, provided the new itinerary is within the parameters of this offer, minimum and maximum stay requirements are met, and the origin and destination are not changed. If the reservation is cancelled before the ticketed departure date, the itinerary may be rebooked up to one year from the original ticket issuance date for a $100 service fee. If a reservation is not cancelled before the ticketed departure date, the ticket has no value. 
+	</specialRules>
+	<specialRules type="UNSUBSCRIBE" show="yes">
+		If you do not wish to receive future e-mail advertisements from us, please &lt;a href=&quot;http://expediamail.com/p/EXPEDIA_US/sub_mgmt_page/preference.html&amp;[+GET_LINK_CONST('OMNITURE_VAR')+]&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;&lt;b&gt;click here&lt;/b&gt;&lt;/font&gt;&lt;/a&gt;. Please do not reply to this e-mail as we are not able to respond to messages sent to this e-mail address. If you've experienced any difficulty in being removed from an Expedia e-mail list, &lt;a href=&quot;https://www.expedia.com/pub/agent.dll?qscr=fbak&amp;[+GET_LINK_CONST('OMNITURE_VAR')+]"&gt;&lt;font color=&quot;#666666&quot;&gt;&lt;b&gt;click here&lt;/b&gt;&lt;/font&gt;&lt;/a&gt;&lt;/a&gt; for personalized help.
+	</specialRules>
+	<specialRules type="CONTACT US" show="yes">
+		To contact us or send feedback, please &lt;a href=&quot;https://www.expedia.com/pub/agent.dll?qscr=fbak&amp;[+GET_LINK_CONST('OMNITURE_VAR')+]&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;&lt;b&gt;click here&lt;/b&gt;&lt;/font&gt;&lt;/a&gt;&lt;/a&gt; or contact us via postal mail at: Expedia, Inc., attn: PCC Team, 3150 139th avenue SE, Bellevue, WA  98005. For additional assistance, visit the Expedia.com &lt;a href=&quot;http://www.expedia.com/daily/service/default.asp?[+GET_LINK_CONST('OMNITURE_VAR')+]&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;&lt;b&gt;Customer Support Center&lt;/font&gt;&lt;/a&gt;.  
+	</specialRules>
+	<specialRules type="A NOTE ABOUT PRICES" show="yes">
+		Prices are subject to availability and subject to change without notice.
+				&lt;BR&gt;&lt;BR&gt;
+				All prices were current at the time this e-mail was published.
+				&lt;BR&gt;&lt;BR&gt;
+				Hotel, vacation package, and cruise prices on the Expedia Website are constantly updated.  Please refer to the site for the most current pricing.  Vacation package prices shown are for one adult, economy class, based on double occupancy, and vary by dates, availability, and departure city.  additional taxes, fees, and charges may apply. airfare is subject to, without limitation: (1) Sept. 11 Security Fee of $2.50 for each flight segment 
+originating at a U.S. airport, up to $5 per one way or $10 per roundtrip; (2) up to $18 per roundtrip in local airport charges; (3) Federal Excise Tax of $3.20 per U.S. domestic flight segment; (4) a Travel Facilities Tax of up to $14.00 per roundtrip for domestic flights beginning or ending in alaska or Hawaii; and (5) for international and Puerto Rico/U.S. Virgin Islands destinations, government taxes and fees of up to $200 per roundtrip, depending on routing and destination (may vary slightly depending on currency exchange rates at time of booking).  a segment is defined as a takeoff and a landing.
+	</specialRules>
+</version>
+<version name="PMI: Smaller Hero Graphic without Search Box with Tertiary Offers">
+	<subjectText>Lorem ipsum dolar</subjectText>
+	<Template type="hleft" color="ffffff" crm="MER">
+		<eyebrowOffer state="yes" eyebrowText="lorem ipsum dolor:" link="http://www.expedia.com/daily/promos/flights/fare_sale_july2006/default.asp?" eyebrowBlurb="lorem ipsum dolor enim"/>
+		<navTabs>
+			<navigation state="flight"/>
+		</navTabs>
+		<heroModule size="sm" imgType="jpg" url="http://www.expedia.com/daily/promos/flights/fare_sale_july2006/default.asp?" altText="Lorem ipsum dolar"/>
+		<messageModule>
+			<headline>Header max 30 chars, bold, 16px, can wrap to next line</headline>
+			<para>Lorem ipsum dolar quia voluptas</para>
+			<para>Lorem ipsum dolar quia voluptas</para>
+		</messageModule>
+		<mainModule destOffer="yes" package="no" headlineText="yes" offers='yes' message='yes'>
+			<headline>Lorem ipsum dolar</headline>
+			<para>Lorem ipsum dolar quia ma</para>
+			<offerGroup destination="Seattle" link="http://www.expedia.com/pubspec/scripts/eap.asp?" blurb="go here:">
+				<offer text="Comfort Inn - Lake Buena Vista" star="0" blurb="from &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;$60&lt;/b&gt;&lt;/font&gt;/night" link="http://www.expedia.com/pubspec/scripts/eap.asp?"></offer>
+				<offer text="Book flight + hotel rates" star="0" blurb="from &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;$60&lt;/b&gt;&lt;/font&gt;/night" link="http://www.expedia.com/pubspec/scripts/eap.asp?"></offer>
+				<offer text="Book flight + hotel rates" star="0" blurb="from &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;$60&lt;/b&gt;&lt;/font&gt;/night" link="http://www.expedia.com/pubspec/scripts/eap.asp?"></offer>
+				<offer text="Book flight + hotel rates" star="0" blurb="from &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;$60&lt;/b&gt;&lt;/font&gt;/night" link="http://www.expedia.com/pubspec/scripts/eap.asp?"></offer>
+			</offerGroup>
+			<callToAction show="yes" content="Book now!" link=""/>
+			<marketingXtras show="yes">Book your flight today with confidence with Expedia's Best Price Guarantee.</marketingXtras>
+		</mainModule>
+		<offerModule singleOffer="no" offers="yes" offerImages="yes" offerHeadline="yes" wizard="no">
+			<headline>Lorem ipsum dolar</headline>
+			<para>Lorem ipsum dolar quia</para>
+			<offer title="Bahamas cruise">
+				<textLine type="" url="http://www.expedia.com/pub/agent.dll?qscr=kdlk&amp;kstp=1&amp;kdid=13&amp;ksid=15&amp;klid=1&amp;">3 to 4 nights</textLine>
+				<textLine type="link" url="http://www.expedia.com/pub/agent.dll?qscr=kdlk&amp;kstp=1&amp;kdid=13&amp;ksid=15&amp;klid=1&amp;">from $259*</textLine>
+			</offer>
+			<offer title="Mexico cruise">
+				<textLine type="" url="URL GOES HERE">3 nights</textLine>
+				<textLine type="link" url="http://www.expedia.com/pub/agent.dll?qscr=kdlk&amp;kstp=1&amp;kdid=117&amp;ksid=13&amp;klid=1&amp;">from $299*</textLine>
+			</offer>
+			<offer title="Carribean cruise">
+				<textLine type="" url="URL GOES HERE">3 nights</textLine>
+				<textLine type="link" url="http://www.expedia.com/pub/agent.dll?qscr=kdlk&amp;kstp=1&amp;kdid=117&amp;ksid=13&amp;klid=1&amp;">from $299*</textLine>
+			</offer>
+			<offer title="California cruise">
+				<textLine type="" url="URL GOES HERE">3 nights</textLine>
+				<textLine type="link" url="http://www.expedia.com/pub/agent.dll?qscr=kdlk&amp;kstp=1&amp;kdid=117&amp;ksid=13&amp;klid=1&amp;">from $299*</textLine>
+			</offer>
+			<offer title="Texas cruise">
+				<textLine type="" url="URL GOES HERE">3 nights</textLine>
+				<textLine type="link" url="http://www.expedia.com/pub/agent.dll?qscr=kdlk&amp;kstp=1&amp;kdid=117&amp;ksid=13&amp;klid=1&amp;">from $299*</textLine>
+			</offer>
+			<searchWizard type="flight_hotel_dual" headline="Search and secure you low fare now." clientCode="" />
+			<bannerAd show="yes" link="http://www.expedia.com/daily/highlights/best-rate-guarantee/default.asp?" image="bpg_faresale_banner.jpg" altText="Best Price Guarantee." content=""/>
+		</offerModule>
+	</Template>
+	<specialRules type="TERMS AND CONDITIONS" show="yes">
+		Booking requirements: Fares above are based on required roundtrip booked for economy/coach travel. &lt;BR&gt;&lt;BR&gt;Travel dates: Fares are valid for travel to and from Florida between August 17 and October 1, 2006. Fares are valid for travel between August 17 and October 27, 2006 to and from originations and destinations outside Florida. &lt;BR&gt;&lt;BR&gt;Minimum/maximum stay: A one-night minimum stay is required for most fares. &lt;BR&gt;&lt;BR&gt;+Additional taxes/fees: Prices shown are for one adult and are subject to additional charges, including, without limitation: the September 11th Security Fee of $2.50 for each flight segment originating at a U.S. airport, with a maximum of up to $5 per one-way or $10 per roundtrip; Passenger Facility Charges of up to $18, depending on itinerary; Federal Segment Fees of $3.30 per segment. A segment is defined as a takeoff and a landing. &lt;BR&gt;&lt;BR&gt;Other conditions: Fares and rules are subject to change without notice. Seats are limited and may not be available on all flights/dates. Lower fares may be available to selected destinations. Tickets are nontransferable and nonrefundable. &lt;BR&gt;&lt;BR&gt;Itinerary changes: The return portion on roundtrip fares may be changed for a $100 fee, provided the new itinerary is within the parameters of this offer, minimum and maximum stay requirements are met, and the origin and destination are not changed. If the reservation is cancelled before the ticketed departure date, the itinerary may be rebooked up to one year from the original ticket issuance date for a $100 service fee. If a reservation is not cancelled before the ticketed departure date, the ticket has no value. 
+	</specialRules>
+	<specialRules type="UNSUBSCRIBE" show="yes">
+		If you do not wish to receive future e-mail advertisements from us, please &lt;a href=&quot;http://expediamail.com/p/EXPEDIA_US/sub_mgmt_page/preference.html&amp;[+GET_LINK_CONST('OMNITURE_VAR')+]&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;&lt;b&gt;click here&lt;/b&gt;&lt;/font&gt;&lt;/a&gt;. Please do not reply to this e-mail as we are not able to respond to messages sent to this e-mail address. If you've experienced any difficulty in being removed from an Expedia e-mail list, &lt;a href=&quot;https://www.expedia.com/pub/agent.dll?qscr=fbak&amp;[+GET_LINK_CONST('OMNITURE_VAR')+]"&gt;&lt;font color=&quot;#666666&quot;&gt;&lt;b&gt;click here&lt;/b&gt;&lt;/font&gt;&lt;/a&gt;&lt;/a&gt; for personalized help.
+	</specialRules>
+	<specialRules type="CONTACT US" show="yes">
+		To contact us or send feedback, please &lt;a href=&quot;https://www.expedia.com/pub/agent.dll?qscr=fbak&amp;[+GET_LINK_CONST('OMNITURE_VAR')+]&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;&lt;b&gt;click here&lt;/b&gt;&lt;/font&gt;&lt;/a&gt;&lt;/a&gt; or contact us via postal mail at: Expedia, Inc., attn: PCC Team, 3150 139th avenue SE, Bellevue, WA  98005. For additional assistance, visit the Expedia.com &lt;a href=&quot;http://www.expedia.com/daily/service/default.asp?[+GET_LINK_CONST('OMNITURE_VAR')+]&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;&lt;b&gt;Customer Support Center&lt;/font&gt;&lt;/a&gt;.  
+	</specialRules>
+	<specialRules type="A NOTE ABOUT PRICES" show="yes">
+		Prices are subject to availability and subject to change without notice.
+				&lt;BR&gt;&lt;BR&gt;
+				All prices were current at the time this e-mail was published.
+				&lt;BR&gt;&lt;BR&gt;
+				Hotel, vacation package, and cruise prices on the Expedia Website are constantly updated.  Please refer to the site for the most current pricing.  Vacation package prices shown are for one adult, economy class, based on double occupancy, and vary by dates, availability, and departure city.  additional taxes, fees, and charges may apply. airfare is subject to, without limitation: (1) Sept. 11 Security Fee of $2.50 for each flight segment 
+originating at a U.S. airport, up to $5 per one way or $10 per roundtrip; (2) up to $18 per roundtrip in local airport charges; (3) Federal Excise Tax of $3.20 per U.S. domestic flight segment; (4) a Travel Facilities Tax of up to $14.00 per roundtrip for domestic flights beginning or ending in alaska or Hawaii; and (5) for international and Puerto Rico/U.S. Virgin Islands destinations, government taxes and fees of up to $200 per roundtrip, depending on routing and destination (may vary slightly depending on currency exchange rates at time of booking).  a segment is defined as a takeoff and a landing.
+	</specialRules>
+</version>
+<version name="PMI: Larger Hero Graphic with Search Box without Tertiary Offers">
+	<subjectText>Lorem ipsum dolar</subjectText>
+	<Template type="hleft" color="ffffff" crm="MER">
+		<eyebrowOffer state="yes" eyebrowText="lorem ipsum dolor:" link="http://www.expedia.com/daily/promos/flights/fare_sale_july2006/default.asp?" eyebrowBlurb="lorem ipsum dolor enim"/>
+		<navTabs>
+			<navigation state="flight"/>
+		</navTabs>
+		<heroModule size="lg" imgType="jpg" url="http://www.expedia.com/daily/promos/flights/fare_sale_july2006/default.asp?" altText="Lorem ipsum dolar"/>
+		<messageModule>
+			<headline>Header max 30 chars, bold, 16px, can wrap to next line</headline>
+			<para>Lorem ipsum dolar quia voluptas</para>
+			<para>Lorem ipsum dolar quia voluptas</para>
+		</messageModule>
+		<mainModule destOffer="no" package="yes" headlineText="yes" offers='yes' message='yes'>
+			<headline>Lorem ipsum dolar</headline>
+			<para>Lorem ipsum dolar quia ma</para>
+			<offerGroup  destination="" link="" blurb="">
+				<offer text="Comfort Inn - Lake Buena Vista" star="0" blurb="from &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;$60&lt;/b&gt;&lt;/font&gt;/night" link="http://www.expedia.com/pubspec/scripts/eap.asp?"></offer>
+				<offer text="Book flight + hotel rates" star="0" blurb="from &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;$60&lt;/b&gt;&lt;/font&gt;/night" link="http://www.expedia.com/pubspec/scripts/eap.asp?"></offer>
+			</offerGroup>
+			<offerGroup  destination="" link="" blurb="">
+				<offer text="Comfort Inn - Lake Buena Vista" star="0" blurb="from &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;$60&lt;/b&gt;&lt;/font&gt;/night" link="http://www.expedia.com/pubspec/scripts/eap.asp?"></offer>
+				<offer text="Book flight + hotel rates" star="0" blurb="from &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;$60&lt;/b&gt;&lt;/font&gt;/night" link="http://www.expedia.com/pubspec/scripts/eap.asp?"></offer>
+			</offerGroup>
+			<offerGroup  destination="" link="" blurb="">
+				<offer text="Comfort Inn - Lake Buena Vista" star="0" blurb="from &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;$60&lt;/b&gt;&lt;/font&gt;/night" link="http://www.expedia.com/pubspec/scripts/eap.asp?"></offer>
+				<offer text="Book flight + hotel rates" star="0" blurb="from &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;$60&lt;/b&gt;&lt;/font&gt;/night" link="http://www.expedia.com/pubspec/scripts/eap.asp?"></offer>
+			</offerGroup>
+			<callToAction show="yes" content="Book now!" link=""/>
+			<marketingXtras show="yes">Book your flight today with confidence with Expedia's Best Price Guarantee.</marketingXtras>
+		</mainModule>
+		<offerModule singleOffer="no" offers="no" offerImages="yes" offerHeadline="yes" wizard="yes">
+			<headline>Lorem ipsum dolar</headline>
+			<para>Lorem ipsum dolar quia</para>
+			<offer title="Bahamas cruise">
+				<textLine type="" url="http://www.expedia.com/pub/agent.dll?qscr=kdlk&amp;kstp=1&amp;kdid=13&amp;ksid=15&amp;klid=1&amp;">3 to 4 nights</textLine>
+				<textLine type="link" url="http://www.expedia.com/pub/agent.dll?qscr=kdlk&amp;kstp=1&amp;kdid=13&amp;ksid=15&amp;klid=1&amp;">from $259*</textLine>
+			</offer>
+			<offer title="Mexico cruise">
+				<textLine type="" url="URL GOES HERE">3 nights</textLine>
+				<textLine type="link" url="http://www.expedia.com/pub/agent.dll?qscr=kdlk&amp;kstp=1&amp;kdid=117&amp;ksid=13&amp;klid=1&amp;">from $299*</textLine>
+			</offer>
+			<offer title="Carribean cruise">
+				<textLine type="" url="URL GOES HERE">3 nights</textLine>
+				<textLine type="link" url="http://www.expedia.com/pub/agent.dll?qscr=kdlk&amp;kstp=1&amp;kdid=117&amp;ksid=13&amp;klid=1&amp;">from $299*</textLine>
+			</offer>
+			<offer title="California cruise">
+				<textLine type="" url="URL GOES HERE">3 nights</textLine>
+				<textLine type="link" url="http://www.expedia.com/pub/agent.dll?qscr=kdlk&amp;kstp=1&amp;kdid=117&amp;ksid=13&amp;klid=1&amp;">from $299*</textLine>
+			</offer>
+			<offer title="Texas cruise">
+				<textLine type="" url="URL GOES HERE">3 nights</textLine>
+				<textLine type="link" url="http://www.expedia.com/pub/agent.dll?qscr=kdlk&amp;kstp=1&amp;kdid=117&amp;ksid=13&amp;klid=1&amp;">from $299*</textLine>
+			</offer>
+			<searchWizard type="flight_hotel_dual" headline="Search and secure you low fare now." clientCode="" />
+			<bannerAd show="yes" link="http://www.expedia.com/daily/highlights/best-rate-guarantee/default.asp?" image="bpg_faresale_banner.jpg" altText="Best Price Guarantee." content=""/>
+		</offerModule>
+	</Template>
+	<specialRules type="TERMS AND CONDITIONS" show="yes">
+		Booking requirements: Fares above are based on required roundtrip booked for economy/coach travel. &lt;BR&gt;&lt;BR&gt;Travel dates: Fares are valid for travel to and from Florida between August 17 and October 1, 2006. Fares are valid for travel between August 17 and October 27, 2006 to and from originations and destinations outside Florida. &lt;BR&gt;&lt;BR&gt;Minimum/maximum stay: A one-night minimum stay is required for most fares. &lt;BR&gt;&lt;BR&gt;+Additional taxes/fees: Prices shown are for one adult and are subject to additional charges, including, without limitation: the September 11th Security Fee of $2.50 for each flight segment originating at a U.S. airport, with a maximum of up to $5 per one-way or $10 per roundtrip; Passenger Facility Charges of up to $18, depending on itinerary; Federal Segment Fees of $3.30 per segment. A segment is defined as a takeoff and a landing. &lt;BR&gt;&lt;BR&gt;Other conditions: Fares and rules are subject to change without notice. Seats are limited and may not be available on all flights/dates. Lower fares may be available to selected destinations. Tickets are nontransferable and nonrefundable. &lt;BR&gt;&lt;BR&gt;Itinerary changes: The return portion on roundtrip fares may be changed for a $100 fee, provided the new itinerary is within the parameters of this offer, minimum and maximum stay requirements are met, and the origin and destination are not changed. If the reservation is cancelled before the ticketed departure date, the itinerary may be rebooked up to one year from the original ticket issuance date for a $100 service fee. If a reservation is not cancelled before the ticketed departure date, the ticket has no value. 
+	</specialRules>
+	<specialRules type="UNSUBSCRIBE" show="yes">
+		If you do not wish to receive future e-mail advertisements from us, please &lt;a href=&quot;http://expediamail.com/p/EXPEDIA_US/sub_mgmt_page/preference.html&amp;&amp;[+GET_LINK_CONST('OMNITURE_VAR')+]&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;&lt;b&gt;click here&lt;/b&gt;&lt;/font&gt;&lt;/a&gt;. Please do not reply to this e-mail as we are not able to respond to messages sent to this e-mail address. If you've experienced any difficulty in being removed from an Expedia e-mail list, &lt;a href=&quot;https://www.expedia.com/pub/agent.dll?qscr=fbak&amp;[+GET_LINK_CONST('OMNITURE_VAR')+]"&gt;&lt;font color=&quot;#666666&quot;&gt;&lt;b&gt;click here&lt;/b&gt;&lt;/font&gt;&lt;/a&gt;&lt;/a&gt; for personalized help.
+	</specialRules>
+	<specialRules type="CONTACT US" show="yes">
+		To contact us or send feedback, please &lt;a href=&quot;https://www.expedia.com/pub/agent.dll?qscr=fbak&amp;[+GET_LINK_CONST('OMNITURE_VAR')+]&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;&lt;b&gt;click here&lt;/b&gt;&lt;/font&gt;&lt;/a&gt;&lt;/a&gt; or contact us via postal mail at: Expedia, Inc., attn: PCC Team, 3150 139th avenue SE, Bellevue, WA  98005. For additional assistance, visit the Expedia.com &lt;a href=&quot;http://www.expedia.com/daily/service/default.asp?[+GET_LINK_CONST('OMNITURE_VAR')+]&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;&lt;b&gt;Customer Support Center&lt;/font&gt;&lt;/a&gt;.  
+	</specialRules>
+	<specialRules type="A NOTE ABOUT PRICES" show="yes">
+		Prices are subject to availability and subject to change without notice.
+				&lt;BR&gt;&lt;BR&gt;
+				All prices were current at the time this e-mail was published.
+				&lt;BR&gt;&lt;BR&gt;
+				Hotel, vacation package, and cruise prices on the Expedia Website are constantly updated.  Please refer to the site for the most current pricing.  Vacation package prices shown are for one adult, economy class, based on double occupancy, and vary by dates, availability, and departure city.  additional taxes, fees, and charges may apply. airfare is subject to, without limitation: (1) Sept. 11 Security Fee of $2.50 for each flight segment 
+originating at a U.S. airport, up to $5 per one way or $10 per roundtrip; (2) up to $18 per roundtrip in local airport charges; (3) Federal Excise Tax of $3.20 per U.S. domestic flight segment; (4) a Travel Facilities Tax of up to $14.00 per roundtrip for domestic flights beginning or ending in alaska or Hawaii; and (5) for international and Puerto Rico/U.S. Virgin Islands destinations, government taxes and fees of up to $200 per roundtrip, depending on routing and destination (may vary slightly depending on currency exchange rates at time of booking).  a segment is defined as a takeoff and a landing.
+	</specialRules>
+</version>
+<version name="PMI: Larger Hero Graphic without Search Box with Tertiary Offers">
+	<subjectText>Lorem ipsum dolar</subjectText>
+	<Template type="hleft" color="ffffff" crm="MER">
+		<eyebrowOffer state="yes" eyebrowText="lorem ipsum dolor:" link="http://www.expedia.com/daily/promos/flights/fare_sale_july2006/default.asp?" eyebrowBlurb="lorem ipsum dolor enim"/>
+		<navTabs>
+			<navigation state="flight"/>
+		</navTabs>
+		<heroModule size="lg" imgType="jpg" url="http://www.expedia.com/daily/promos/flights/fare_sale_july2006/default.asp?" altText="Lorem ipsum dolar"/>
+		<messageModule>
+			<headline>Header max 30 chars, bold, 16px, can wrap to next line</headline>
+			<para>Lorem ipsum dolar quia voluptas</para>
+			<para>Lorem ipsum dolar quia voluptas</para>
+		</messageModule>
+		<mainModule destOffer="yes" package="no" headlineText="yes" offers='yes' message='yes'>
+			<headline>Lorem ipsum dolar</headline>
+			<para>Lorem ipsum dolar quia ma</para>
+			<offerGroup destination="Seattle" link="http://www.expedia.com/pubspec/scripts/eap.asp?" blurb="go here:">
+				<offer text="Comfort Inn - Lake Buena Vista" star="0" blurb="from &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;$60&lt;/b&gt;&lt;/font&gt;/night" link="http://www.expedia.com/pubspec/scripts/eap.asp?"></offer>
+				<offer text="Book flight + hotel rates" star="0" blurb="from &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;$60&lt;/b&gt;&lt;/font&gt;/night" link="http://www.expedia.com/pubspec/scripts/eap.asp?"></offer>
+				<offer text="Book flight + hotel rates" star="0" blurb="from &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;$60&lt;/b&gt;&lt;/font&gt;/night" link="http://www.expedia.com/pubspec/scripts/eap.asp?"></offer>
+				<offer text="Book flight + hotel rates" star="0" blurb="from &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;$60&lt;/b&gt;&lt;/font&gt;/night" link="http://www.expedia.com/pubspec/scripts/eap.asp?"></offer>
+			</offerGroup>
+			<callToAction show="yes" content="Book now!" link=""/>
+			<marketingXtras show="yes">Book your flight today with confidence with Expedia's Best Price Guarantee.</marketingXtras>
+		</mainModule>
+		<offerModule singleOffer="no" offers="yes" offerImages="yes" offerHeadline="yes" wizard="no">
+			<headline>Lorem ipsum dolar</headline>
+			<para>Lorem ipsum dolar quia</para>
+			<offer title="Bahamas cruise">
+				<textLine type="" url="http://www.expedia.com/pub/agent.dll?qscr=kdlk&amp;kstp=1&amp;kdid=13&amp;ksid=15&amp;klid=1&amp;">3 to 4 nights</textLine>
+				<textLine type="link" url="http://www.expedia.com/pub/agent.dll?qscr=kdlk&amp;kstp=1&amp;kdid=13&amp;ksid=15&amp;klid=1&amp;">from $259*</textLine>
+			</offer>
+			<offer title="Mexico cruise">
+				<textLine type="" url="URL GOES HERE">3 nights</textLine>
+				<textLine type="link" url="http://www.expedia.com/pub/agent.dll?qscr=kdlk&amp;kstp=1&amp;kdid=117&amp;ksid=13&amp;klid=1&amp;">from $299*</textLine>
+			</offer>
+			<offer title="Carribean cruise">
+				<textLine type="" url="URL GOES HERE">3 nights</textLine>
+				<textLine type="link" url="http://www.expedia.com/pub/agent.dll?qscr=kdlk&amp;kstp=1&amp;kdid=117&amp;ksid=13&amp;klid=1&amp;">from $299*</textLine>
+			</offer>
+			<offer title="California cruise">
+				<textLine type="" url="URL GOES HERE">3 nights</textLine>
+				<textLine type="link" url="http://www.expedia.com/pub/agent.dll?qscr=kdlk&amp;kstp=1&amp;kdid=117&amp;ksid=13&amp;klid=1&amp;">from $299*</textLine>
+			</offer>
+			<offer title="Texas cruise">
+				<textLine type="" url="URL GOES HERE">3 nights</textLine>
+				<textLine type="link" url="http://www.expedia.com/pub/agent.dll?qscr=kdlk&amp;kstp=1&amp;kdid=117&amp;ksid=13&amp;klid=1&amp;">from $299*</textLine>
+			</offer>
+			<searchWizard type="flight_hotel_dual" headline="Search and secure you low fare now." clientCode="" />
+			<bannerAd show="yes" link="http://www.expedia.com/daily/highlights/best-rate-guarantee/default.asp?" image="bpg_faresale_banner.jpg" altText="Best Price Guarantee." content=""/>
+		</offerModule>
+	</Template>
+<specialRules type="TERMS AND CONDITIONS" show="yes">
+		Booking requirements: Fares above are based on required roundtrip booked for economy/coach travel. &lt;BR&gt;&lt;BR&gt;Travel dates: Fares are valid for travel to and from Florida between August 17 and October 1, 2006. Fares are valid for travel between August 17 and October 27, 2006 to and from originations and destinations outside Florida. &lt;BR&gt;&lt;BR&gt;Minimum/maximum stay: A one-night minimum stay is required for most fares. &lt;BR&gt;&lt;BR&gt;+Additional taxes/fees: Prices shown are for one adult and are subject to additional charges, including, without limitation: the September 11th Security Fee of $2.50 for each flight segment originating at a U.S. airport, with a maximum of up to $5 per one-way or $10 per roundtrip; Passenger Facility Charges of up to $18, depending on itinerary; Federal Segment Fees of $3.30 per segment. A segment is defined as a takeoff and a landing. &lt;BR&gt;&lt;BR&gt;Other conditions: Fares and rules are subject to change without notice. Seats are limited and may not be available on all flights/dates. Lower fares may be available to selected destinations. Tickets are nontransferable and nonrefundable. &lt;BR&gt;&lt;BR&gt;Itinerary changes: The return portion on roundtrip fares may be changed for a $100 fee, provided the new itinerary is within the parameters of this offer, minimum and maximum stay requirements are met, and the origin and destination are not changed. If the reservation is cancelled before the ticketed departure date, the itinerary may be rebooked up to one year from the original ticket issuance date for a $100 service fee. If a reservation is not cancelled before the ticketed departure date, the ticket has no value. 
+	</specialRules>
+	<specialRules type="UNSUBSCRIBE" show="yes">
+		If you do not wish to receive future e-mail advertisements from us, please &lt;a href=&quot;http://expediamail.com/p/EXPEDIA_US/sub_mgmt_page/preference.html&amp;&amp;[+GET_LINK_CONST('OMNITURE_VAR')+]&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;&lt;b&gt;click here&lt;/b&gt;&lt;/font&gt;&lt;/a&gt;. Please do not reply to this e-mail as we are not able to respond to messages sent to this e-mail address. If you've experienced any difficulty in being removed from an Expedia e-mail list, &lt;a href=&quot;https://www.expedia.com/pub/agent.dll?qscr=fbak&amp;[+GET_LINK_CONST('OMNITURE_VAR')+]"&gt;&lt;font color=&quot;#666666&quot;&gt;&lt;b&gt;click here&lt;/b&gt;&lt;/font&gt;&lt;/a&gt;&lt;/a&gt; for personalized help.
+	</specialRules>
+	<specialRules type="CONTACT US" show="yes">
+		To contact us or send feedback, please &lt;a href=&quot;https://www.expedia.com/pub/agent.dll?qscr=fbak&amp;[+GET_LINK_CONST('OMNITURE_VAR')+]&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;&lt;b&gt;click here&lt;/b&gt;&lt;/font&gt;&lt;/a&gt;&lt;/a&gt; or contact us via postal mail at: Expedia, Inc., attn: PCC Team, 3150 139th avenue SE, Bellevue, WA  98005. For additional assistance, visit the Expedia.com &lt;a href=&quot;http://www.expedia.com/daily/service/default.asp?[+GET_LINK_CONST('OMNITURE_VAR')+]&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;&lt;b&gt;Customer Support Center&lt;/font&gt;&lt;/a&gt;.  
+	</specialRules>
+	<specialRules type="A NOTE ABOUT PRICES" show="yes">
+		Prices are subject to availability and subject to change without notice.
+				&lt;BR&gt;&lt;BR&gt;
+				All prices were current at the time this e-mail was published.
+				&lt;BR&gt;&lt;BR&gt;
+				Hotel, vacation package, and cruise prices on the Expedia Website are constantly updated.  Please refer to the site for the most current pricing.  Vacation package prices shown are for one adult, economy class, based on double occupancy, and vary by dates, availability, and departure city.  additional taxes, fees, and charges may apply. airfare is subject to, without limitation: (1) Sept. 11 Security Fee of $2.50 for each flight segment 
+originating at a U.S. airport, up to $5 per one way or $10 per roundtrip; (2) up to $18 per roundtrip in local airport charges; (3) Federal Excise Tax of $3.20 per U.S. domestic flight segment; (4) a Travel Facilities Tax of up to $14.00 per roundtrip for domestic flights beginning or ending in alaska or Hawaii; and (5) for international and Puerto Rico/U.S. Virgin Islands destinations, government taxes and fees of up to $200 per roundtrip, depending on routing and destination (may vary slightly depending on currency exchange rates at time of booking).  a segment is defined as a takeoff and a landing.
+	</specialRules>
+</version>
+<version name="CRM: Larger Hero Graphic CER without Search Box with Tertiary Offers">
+	<subjectText>Lorem ipsum dolar</subjectText>
+	<Template type="hleft" color="ffffff" crm="CER">
+		<eyebrowOffer state="yes" eyebrowText="lorem ipsum dolor:" link="http://www.expedia.com/daily/promos/flights/fare_sale_july2006/default.asp?" eyebrowBlurb="lorem ipsum dolor enim"/>
+		<navTabs>
+			<navigation state="flight"/>
+		</navTabs>
+		<heroModule size="lg" imgType="jpg" url="http://www.expedia.com/daily/promos/flights/fare_sale_july2006/default.asp?" altText="Lorem ipsum dolar"/>
+		<messageModule>
+			<headline>Header max 30 chars, bold, 16px, can wrap to next line</headline>
+			<para>Lorem ipsum dolar quia voluptas</para>
+			<para>Lorem ipsum dolar quia voluptas</para>
+		</messageModule>
+		<mainModule destOffer="yes" package="no" headlineText="yes" offers='yes' message='yes'>
+			<headline>Lorem ipsum dolar</headline>
+			<para>Lorem ipsum dolar quia ma</para>
+			<offerGroup destination="Seattle" link="http://www.expedia.com/pubspec/scripts/eap.asp?" blurb="go here:">
+				<offer text="Comfort Inn - Lake Buena Vista" star="0" blurb="from &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;$60&lt;/b&gt;&lt;/font&gt;/night" link="http://www.expedia.com/pubspec/scripts/eap.asp?"></offer>
+				<offer text="Book flight + hotel rates" star="0" blurb="from &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;$60&lt;/b&gt;&lt;/font&gt;/night" link="http://www.expedia.com/pubspec/scripts/eap.asp?"></offer>
+				<offer text="Book flight + hotel rates" star="0" blurb="from &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;$60&lt;/b&gt;&lt;/font&gt;/night" link="http://www.expedia.com/pubspec/scripts/eap.asp?"></offer>
+				<offer text="Book flight + hotel rates" star="0" blurb="from &lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;$60&lt;/b&gt;&lt;/font&gt;/night" link="http://www.expedia.com/pubspec/scripts/eap.asp?"></offer>
+			</offerGroup>
+			<callToAction show="yes" content="Book now!" link=""/>
+			<marketingXtras show="yes">Book your flight today with confidence with Expedia's Best Price Guarantee.</marketingXtras>
+		</mainModule>
+		<offerModule singleOffer="no" offers="yes" offerImages="yes" offerHeadline="yes" wizard="no">
+			<headline>Lorem ipsum dolar</headline>
+			<para>Lorem ipsum dolar quia</para>
+			<offer title="Bahamas cruise">
+				<textLine type="" url="http://www.expedia.com/pub/agent.dll?qscr=kdlk&amp;kstp=1&amp;kdid=13&amp;ksid=15&amp;klid=1&amp;">3 to 4 nights</textLine>
+				<textLine type="link" url="http://www.expedia.com/pub/agent.dll?qscr=kdlk&amp;kstp=1&amp;kdid=13&amp;ksid=15&amp;klid=1&amp;">from $259*</textLine>
+			</offer>
+			<offer title="Mexico cruise">
+				<textLine type="" url="URL GOES HERE">3 nights</textLine>
+				<textLine type="link" url="http://www.expedia.com/pub/agent.dll?qscr=kdlk&amp;kstp=1&amp;kdid=117&amp;ksid=13&amp;klid=1&amp;">from $299*</textLine>
+			</offer>
+			<offer title="Carribean cruise">
+				<textLine type="" url="URL GOES HERE">3 nights</textLine>
+				<textLine type="link" url="http://www.expedia.com/pub/agent.dll?qscr=kdlk&amp;kstp=1&amp;kdid=117&amp;ksid=13&amp;klid=1&amp;">from $299*</textLine>
+			</offer>
+			<offer title="California cruise">
+				<textLine type="" url="URL GOES HERE">3 nights</textLine>
+				<textLine type="link" url="http://www.expedia.com/pub/agent.dll?qscr=kdlk&amp;kstp=1&amp;kdid=117&amp;ksid=13&amp;klid=1&amp;">from $299*</textLine>
+			</offer>
+			<offer title="Texas cruise">
+				<textLine type="" url="URL GOES HERE">3 nights</textLine>
+				<textLine type="link" url="http://www.expedia.com/pub/agent.dll?qscr=kdlk&amp;kstp=1&amp;kdid=117&amp;ksid=13&amp;klid=1&amp;">from $299*</textLine>
+			</offer>
+			<searchWizard type="flight_hotel_dual" headline="Search and secure you low fare now." clientCode="" />
+			<bannerAd show="yes" link="http://www.expedia.com/daily/highlights/best-rate-guarantee/default.asp?" image="bpg_faresale_banner.jpg" altText="Best Price Guarantee." content=""/>
+		</offerModule>
+	</Template>
+	<specialRules type="TERMS AND CONDITIONS" show="yes">
+		Booking requirements: Fares above are based on required roundtrip booked for economy/coach travel. &lt;BR&gt;&lt;BR&gt;Travel dates: Fares are valid for travel to and from Florida between August 17 and October 1, 2006. Fares are valid for travel between August 17 and October 27, 2006 to and from originations and destinations outside Florida. &lt;BR&gt;&lt;BR&gt;Minimum/maximum stay: A one-night minimum stay is required for most fares. &lt;BR&gt;&lt;BR&gt;+Additional taxes/fees: Prices shown are for one adult and are subject to additional charges, including, without limitation: the September 11th Security Fee of $2.50 for each flight segment originating at a U.S. airport, with a maximum of up to $5 per one-way or $10 per roundtrip; Passenger Facility Charges of up to $18, depending on itinerary; Federal Segment Fees of $3.30 per segment. A segment is defined as a takeoff and a landing. &lt;BR&gt;&lt;BR&gt;Other conditions: Fares and rules are subject to change without notice. Seats are limited and may not be available on all flights/dates. Lower fares may be available to selected destinations. Tickets are nontransferable and nonrefundable. &lt;BR&gt;&lt;BR&gt;Itinerary changes: The return portion on roundtrip fares may be changed for a $100 fee, provided the new itinerary is within the parameters of this offer, minimum and maximum stay requirements are met, and the origin and destination are not changed. If the reservation is cancelled before the ticketed departure date, the itinerary may be rebooked up to one year from the original ticket issuance date for a $100 service fee. If a reservation is not cancelled before the ticketed departure date, the ticket has no value. 
+	</specialRules>
+	<specialRules type="UNSUBSCRIBE" show="yes">
+		If you do not wish to receive future e-mail advertisements from us, please &lt;a href=&quot;http://expediamail.com/p/EXPEDIA_US/sub_mgmt_page/preference.html&amp;[+GET_LINK_CONST('OMNITURE_VAR')+]&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;&lt;b&gt;click here&lt;/b&gt;&lt;/font&gt;&lt;/a&gt;. Please do not reply to this e-mail as we are not able to respond to messages sent to this e-mail address. If you've experienced any difficulty in being removed from an Expedia e-mail list, &lt;a href=&quot;https://www.expedia.com/pub/agent.dll?qscr=fbak&amp;[+GET_LINK_CONST('OMNITURE_VAR')+]"&gt;&lt;font color=&quot;#666666&quot;&gt;&lt;b&gt;click here&lt;/b&gt;&lt;/font&gt;&lt;/a&gt;&lt;/a&gt; for personalized help.
+	</specialRules>
+	<specialRules type="CONTACT US" show="yes">
+		To contact us or send feedback, please &lt;a href=&quot;https://www.expedia.com/pub/agent.dll?qscr=fbak&amp;[+GET_LINK_CONST('OMNITURE_VAR')+]&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;&lt;b&gt;click here&lt;/b&gt;&lt;/font&gt;&lt;/a&gt;&lt;/a&gt; or contact us via postal mail at: Expedia, Inc., attn: PCC Team, 3150 139th avenue SE, Bellevue, WA  98005. For additional assistance, visit the Expedia.com &lt;a href=&quot;http://www.expedia.com/daily/service/default.asp?[+GET_LINK_CONST('OMNITURE_VAR')+]&quot;&gt;&lt;font color=&quot;#666666&quot;&gt;&lt;b&gt;Customer Support Center&lt;/font&gt;&lt;/a&gt;.  
+	</specialRules>
+	<specialRules type="A NOTE ABOUT PRICES" show="yes">
+		Prices are subject to availability and subject to change without notice.
+				&lt;BR&gt;&lt;BR&gt;
+				All prices were current at the time this e-mail was published.
+				&lt;BR&gt;&lt;BR&gt;
+				Hotel, vacation package, and cruise prices on the Expedia Website are constantly updated.  Please refer to the site for the most current pricing.  Vacation package prices shown are for one adult, economy class, based on double occupancy, and vary by dates, availability, and departure city.  additional taxes, fees, and charges may apply. airfare is subject to, without limitation: (1) Sept. 11 Security Fee of $2.50 for each flight segment 
+originating at a U.S. airport, up to $5 per one way or $10 per roundtrip; (2) up to $18 per roundtrip in local airport charges; (3) Federal Excise Tax of $3.20 per U.S. domestic flight segment; (4) a Travel Facilities Tax of up to $14.00 per roundtrip for domestic flights beginning or ending in alaska or Hawaii; and (5) for international and Puerto Rico/U.S. Virgin Islands destinations, government taxes and fees of up to $200 per roundtrip, depending on routing and destination (may vary slightly depending on currency exchange rates at time of booking).  a segment is defined as a takeoff and a landing.
+	</specialRules>
+</version>
+</email>

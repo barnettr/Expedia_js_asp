@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<rss version="2.0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:georss="http://www.georss.org/georss" xmlns:gml="http://www.opengis.net/gml" xmlns:mappoint="http://virtualearth.msn.com/apis/annotate#">
+	<channel>
+		<title>Bellevue Expedia Map</title>
+		<link></link>
+		<description>Local areas surronding the Expedia Buildings</description>
+		<mappointIntlCode>cht</mappointIntlCode>
+		<item>
+			<title>Expedia Campus</title>
+			<description>Home of the now famous ECS and EMC groups.</description>
+			<geo:lat>47.345682</geo:lat>
+		    <geo:long>-122.091437</geo:long>
+			<mappoint:icon>http://dev.live.com/virtualearth/sdk/img/hiking_icon.gif</mappoint:icon>
+		</item>
+		<item>
+			<title>Bellevue Square</title>
+			<description>This is where we most Expedia employees shop every day.</description>
+		    <geo:lat>47.370154</geo:lat>
+		    <geo:long>-122.120755</geo:long>
+		</item>
+		<item>
+			<title>City of Bellevue Boat Launch</title>
+			<description>This is where all of the Expedia ECS team keep their yachts.</description>
+			<geo:lat>47.363288</geo:lat>
+			<geo:long>-122.122928</geo:long>
+		</item>
+	</channel>
+</rss>

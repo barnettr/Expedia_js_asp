@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<navigation>
+	<email type="CM">
+		<template date="" type="" id="" desc="">this is a cm link</template>
+		<template date="" type="" id="" desc="">this is a cm link</template>
+	</email>
+	<email type="TR">
+		<template date="" type="" id="" desc="">this is a tr link</template>
+	</email>
+	<email type="FS">
+		<template date="" type="" id="" desc="">this is a fs link</template>
+	</email>
+	<email type="MMP">
+		<template date="20060310" type="mmn_pe_01_" id="005" desc="mer_campaign">
+			<template date="20060310" type="mmn_pe_01_" id="005" desc="family" vers="1"></template>
+			<template date="20060310" type="mmn_pe_01_" id="005" desc="couples" vers="2"></template>
+			<template date="20060310" type="mmn_pe_01_" id="005" desc="general" vers="3"></template>
+		</template>	
+	</email>
+</navigation>
+

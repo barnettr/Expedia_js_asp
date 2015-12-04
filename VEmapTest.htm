@@ -1,0 +1,62 @@
+﻿
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <title>:: Virtual Earth Map Test ::</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <script src="http://dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=5"></script>
+        <script type="text/javascript" src="init.js"></script>
+        <script type="text/javascript" src="getRegion.js"></script>
+        <script type="text/javascript" src="getHotel.js"></script>
+        <script type="text/javascript" src="getIE_Nodes.js"></script>
+        <script type="text/javascript" src="getIEPromoPrice.js"></script>
+        <script type="text/javascript" src="getFirefoxNodes.js"></script>
+        <script type="text/javascript" src="Event.js"></script>
+        <script type="text/javascript" src="SortedTable.js"></script>
+        
+        <link title="combined" rel="stylesheet" type="text/css" media="screen" href="mapview.css" />
+    </head>
+    <body onload="GetMap();" style="font-family: arial; font-size: smaller; color: #000000;">
+        <br /><br /><br /><br />
+        <center>
+            <table style="width:800px; height:100%;" cellpadding="0" cellspacing="0" border="0" align="center" id="wrapperTable">
+                <tr>
+                    <td align="left" valign="middle" style="border-left: solid 1px #979797; border-top: solid 1px #979797; border-bottom: solid 1px #979797; width:212px;">
+                        
+                        <div id="myMap" style="position:relative; width:210px; height:300px; border-right:1px solid #979797; border-top:1px solid #979797; border-bottom:1px solid #979797;"></div>
+                        
+                    </td>
+                    <td align="left" valign="top" style="font-size:0.9em; border-right: solid 1px #979797; border-top: solid 1px #979797; border-bottom: solid 1px #979797; width:438px;" id="wrapperCell">
+                        <div id="sideBarWrapper">
+                            <table cellpadding="0" cellspacing="0" border="0" style="width:588px; margin-left:2px; margin-top:2px; margin-right:2px; margin-bottom:2px; overflow-y:scroll;" id="side_bar">
+                                <tr>
+                                    <td colspan="2" align="left" style="padding-bottom:4px; padding-top:4px; padding-left:6px; padding-right:4px; width:100%;"><!--- <strong>Regional Locations</strong> --->
+                                        
+                                        <!--<div id="hotel_list"></div>-->
+                                        <table align="center" id="hotel_list">
+					                    <thead>
+						                    <tr>
+						                        <th align='center' valign='top' style='width:10%; color:#336699;'><a href="#" title="Sort by Location">Location</a></th>
+						                        <th colspan="2" align='left' valign='top' style='width:50%; color:#336699;'><a href="#" title="Sort by Hotel Name" >Hotel Name</a></th>
+						                        <th align='center' valign='top' style='width:10%; color:#336699;'><a href="#" title="Sort by Star Rating" >Star Rating</a></th>
+						                        <th align='center' valign='top' style='width:10%; color:#336699;'><a href="#" title="Sort by Price 1" >Price</a></th>
+						                        <th align='center' valign='top' style='width:10%; color:#336699;'><a href="#" title="Sort by Price 2" >Price</a></th>
+						                        <th align='center' valign='top' style='width:10%; color:#336699;'><a href="#" title="Sort by Price 3" >Price</a></th>
+						                    </tr>
+					                    </thead>
+					                    <tbody id="bowlData"></tbody>
+					                    </table>
+                                        
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
+
+
+      

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PriceModule>
+	<row hotelid="19023" region="Carribean" location="Aruba" filter="Credit(s)" expediapicks="yes" insiderselect="yes">
+		<name>Sheraton Grand Island</name>
+		<description>Waterfront hotel across the bridge from downtown. Guestrooms feature white.</description>
+		<image>http://media.expedia.com/hotels/1000000/20000/19100/19023/19023_28_t.jpg</image>
+		<starRating>50</starRating>
+		<priceCol1 offer="$20 dining credit">$375</priceCol1>
+		<priceCol2 offer="$30 dining credit">$225</priceCol2>
+		<priceCol3 offer="$40 dining credit">$075</priceCol3>
+		<merchText>stuff to sell</merchText>
+		<address>8358 Sunset Boulevard, West Hollywood, California</address>
+		<latitude>34.0960</latitude>
+		<longitude>-118.3715</longitude>
+	</row>
+	<row hotelid="50947" region="Carribean" location="Aruba" filter="Credit(s)"  expediapicks="yes" insiderselect="no">
+		<name>Sheraton Grand Island</name>
+		<description>Waterfront hotel across the bridge from downtown. Guestrooms feature white.</description>
+		<image>http://media.expedia.com/hotels/1000000/20000/19100/19023/19023_28_t.jpg</image>
+		<starRating>30</starRating>
+		<priceCol1 offer="$20 dining credit">$375</priceCol1>
+		<priceCol2 offer="$30 dining credit">$225</priceCol2>
+		<priceCol3 offer="$40 dining credit">$075</priceCol3>
+		<merchText>stuff to sell</merchText>
+		<address>1020 North San Vicente Boulevard, West Hollywood, California</address>
+		<latitude>34.0901</latitude>
+		<longitude>-118.3855</longitude>
+	</row>
+	<row hotelid="22222" region="Europe" location="Paris" filter="Credit(s)" expediapicks="yes" insiderselect="yes">
+		<name>Sheraton Grand Island</name>
+		<description>Waterfront hotel across the bridge from downtown. Guestrooms feature white.</description>
+		<image>http://media.expedia.com/hotels/1000000/20000/19100/19023/19023_28_t.jpg</image>
+		<starRating>50</starRating>
+		<priceCol1 offer="$20 dining credit">$375</priceCol1>
+		<priceCol2 offer="$30 dining credit">$225</priceCol2>
+		<priceCol3 offer="$40 dining credit">$075</priceCol3>
+		<merchText>stuff to sell</merchText>
+		<address>1830 E. Sahara Avenue Suite #108, Las Vegas, Nevada 89104</address>
+		<latitude>36.1445</latitude>
+		<longitude>-115.1248</longitude>
+	</row>
+	<row hotelid="60967" region="Mexico" location="Mazatlan" filter="Credit(s)"  expediapicks="yes" insiderselect="no">
+		<name>Sheraton Grand Island</name>
+		<description>Waterfront hotel across the bridge from downtown. Guestrooms feature white.</description>
+		<image>http://media.expedia.com/hotels/1000000/20000/19100/19023/19023_28_t.jpg</image>
+		<starRating>30</starRating>
+		<priceCol1 offer="$20 dining credit">$375</priceCol1>
+		<priceCol2 offer="$30 dining credit">$225</priceCol2>
+		<priceCol3 offer="$40 dining credit">$075</priceCol3>
+		<merchText>stuff to sell</merchText>
+		<address>333 Universal Hollywood Drive, Universal City, California</address>
+		<latitude>34.1366</latitude>
+		<longitude>-118.3570</longitude>
+	</row>
+	<row hotelid="19023" region="Carribean" location="Aruba" filter="Credit(s)" expediapicks="yes" insiderselect="yes">
+		<name>Sheraton Grand Island</name>
+		<description>Waterfront hotel across the bridge from downtown. Guestrooms feature white.</description>
+		<image>http://media.expedia.com/hotels/1000000/20000/19100/19023/19023_28_t.jpg</image>
+		<starRating>50</starRating>
+		<priceCol1 offer="$20 dining credit">$375</priceCol1>
+		<priceCol2 offer="$30 dining credit">$225</priceCol2>
+		<priceCol3 offer="$40 dining credit">$075</priceCol3>
+		<merchText>stuff to sell</merchText>
+		<address>2156 East Colorado Boulevard, Pasadena, California</address>
+		<latitude>34.1460</latitude>
+		<longitude>-118.1056</longitude>
+	</row>
+	<row hotelid="50947" region="Carribean" location="Aruba" filter="Credit(s)"  expediapicks="yes" insiderselect="no">
+		<name>Sheraton Grand Island</name>
+		<description>Waterfront hotel across the bridge from downtown. Guestrooms feature white.</description>
+		<image>http://media.expedia.com/hotels/1000000/20000/19100/19023/19023_28_t.jpg</image>
+		<starRating>30</starRating>
+		<priceCol1 offer="$20 dining credit">$375</priceCol1>
+		<priceCol2 offer="$30 dining credit">$225</priceCol2>
+		<priceCol3 offer="$40 dining credit">$075</priceCol3>
+		<merchText>stuff to sell</merchText>
+		<address>201 Broadway, Santa Monica, California</address>
+		<latitude>34.0136</latitude>
+		<longitude>-118.4955</longitude>
+	</row>
+	<row hotelid="22222" region="Europe" location="Paris" filter="Credit(s)" expediapicks="yes" insiderselect="yes">
+		<name>Sheraton Grand Island</name>
+		<description>Waterfront hotel across the bridge from downtown. Guestrooms feature white.</description>
+		<image>http://media.expedia.com/hotels/1000000/20000/19100/19023/19023_28_t.jpg</image>
+		<starRating>50</starRating>
+		<priceCol1 offer="$20 dining credit">1375</priceCol1>
+		<priceCol2 offer="$30 dining credit">1225</priceCol2>
+		<priceCol3 offer="$40 dining credit">1075</priceCol3>
+		<merchText>stuff to sell</merchText>
+		<address>1111 Second Street, Santa Monica, California</address>
+		<latitude>34.0182</latitude>
+		<longitude>-118.5009</longitude>
+	</row>
+	<row hotelid="60967" region="Mexico" location="Mazatlan" filter="Credit(s)"  expediapicks="yes" insiderselect="no">
+		<name>Sheraton Grand Island</name>
+		<description>Waterfront hotel across the bridge from downtown. Guestrooms feature white.</description>
+		<image>http://media.expedia.com/hotels/1000000/20000/19100/19023/19023_28_t.jpg</image>
+		<starRating>30</starRating>
+		<priceCol1 offer="$20 dining credit">$375</priceCol1>
+		<priceCol2 offer="$30 dining credit">$225</priceCol2>
+		<priceCol3 offer="$40 dining credit">$075</priceCol3>
+		<merchText>stuff to sell</merchText>
+		<address>107 Broadway, Santa Monica, California</address>
+		<latitude>34.0129</latitude>
+		<longitude>-118.4963</longitude>
+	</row>
+	<row hotelid="19023" region="Carribean" location="Aruba" filter="Credit(s)" expediapicks="yes" insiderselect="yes">
+		<name>Sheraton Grand Island</name>
+		<description>Waterfront hotel across the bridge from downtown. Guestrooms feature white.</description>
+		<image>http://media.expedia.com/hotels/1000000/20000/19100/19023/19023_28_t.jpg</image>
+		<starRating>50</starRating>
+		<priceCol1 offer="$20 dining credit">$375</priceCol1>
+		<priceCol2 offer="$30 dining credit">$225</priceCol2>
+		<priceCol3 offer="$40 dining credit">$075</priceCol3>
+		<merchText>stuff to sell</merchText>
+		<address>6285 East Pacific Coast Highway, Long Beach, California</address>
+		<latitude>33.7641</latitude>
+		<longitude>-118.1155</longitude>
+	</row>
+	<row hotelid="50947" region="Carribean" location="Aruba" filter="Credit(s)"  expediapicks="yes" insiderselect="no">
+		<name>Sheraton Grand Island</name>
+		<description>Waterfront hotel across the bridge from downtown. Guestrooms feature white.</description>
+		<image>http://media.expedia.com/hotels/1000000/20000/19100/19023/19023_28_t.jpg</image>
+		<starRating>30</starRating>
+		<priceCol1 offer="$20 dining credit">$375</priceCol1>
+		<priceCol2 offer="$30 dining credit">$225</priceCol2>
+		<priceCol3 offer="$40 dining credit">$075</priceCol3>
+		<merchText>stuff to sell</merchText>
+		<address>998 W Mission Bay Dr, San Diego, CA 92109</address>
+		<latitude>32.7721</latitude>
+		<longitude>-117.2490</longitude>
+	</row>
+	<row hotelid="22222" region="Europe" location="Paris" filter="Credit(s)" expediapicks="yes" insiderselect="yes">
+		<name>Sheraton Grand Island</name>
+		<description>Waterfront hotel across the bridge from downtown. Guestrooms feature white.</description>
+		<image>http://media.expedia.com/hotels/1000000/20000/19100/19023/19023_28_t.jpg</image>
+		<starRating>50</starRating>
+		<priceCol1 offer="$20 dining credit">$375</priceCol1>
+		<priceCol2 offer="$30 dining credit">$225</priceCol2>
+		<priceCol3 offer="$40 dining credit">$075</priceCol3>
+		<merchText>stuff to sell</merchText>
+		<address>2131 Shelter Island Dr, San Diego, CA 92106</address>
+		<latitude>32.7168</latitude>
+		<longitude>-117.2231</longitude>
+	</row>
+	<row hotelid="60967" region="Mexico" location="Mazatlan" filter="Credit(s)"  expediapicks="yes" insiderselect="no">
+		<name>Sheraton Grand Island</name>
+		<description>Waterfront hotel across the bridge from downtown. Guestrooms feature white.</description>
+		<image>http://media.expedia.com/hotels/1000000/20000/19100/19023/19023_28_t.jpg</image>
+		<starRating>30</starRating>
+		<priceCol1 offer="$20 dining credit">$375</priceCol1>
+		<priceCol2 offer="$30 dining credit">$225</priceCol2>
+		<priceCol3 offer="$40 dining credit">$075</priceCol3>
+		<merchText>stuff to sell</merchText>
+		<address>1775 E Mission Bay Dr, San Diego, CA 92109</address>
+		<latitude>32.7769</latitude>
+		<longitude>-117.2095</longitude>
+	</row>
+	<row hotelid="19023" region="Carribean" location="Aruba" filter="Credit(s)" expediapicks="yes" insiderselect="yes">
+		<name>Sheraton Grand Island</name>
+		<description>Waterfront hotel across the bridge from downtown. Guestrooms feature white.</description>
+		<image>http://media.expedia.com/hotels/1000000/20000/19100/19023/19023_28_t.jpg</image>
+		<starRating>50</starRating>
+		<priceCol1 offer="$20 dining credit">$375</priceCol1>
+		<priceCol2 offer="$30 dining credit">$225</priceCol2>
+		<priceCol3 offer="$40 dining credit">$075</priceCol3>
+		<merchText>stuff to sell</merchText>
+		<address>2640 Jefferson St, Napa, CA 94558</address>
+		<latitude>38.3124</latitude>
+		<longitude>-122.2969</longitude>
+	</row>
+	<row hotelid="50947" region="Carribean" location="Aruba" filter="Credit(s)"  expediapicks="yes" insiderselect="no">
+		<name>Sheraton Grand Island</name>
+		<description>Waterfront hotel across the bridge from downtown. Guestrooms feature white.</description>
+		<image>http://media.expedia.com/hotels/1000000/20000/19100/19023/19023_28_t.jpg</image>
+		<starRating>30</starRating>
+		<priceCol1 offer="$20 dining credit">$375</priceCol1>
+		<priceCol2 offer="$30 dining credit">$225</priceCol2>
+		<priceCol3 offer="$40 dining credit">$075</priceCol3>
+		<merchText>stuff to sell</merchText>
+		<address>690 Newport Center Dr, Newport Beach, CA 92660</address>
+		<latitude>33.6193</latitude>
+		<longitude>-117.8761</longitude>
+	</row>
+	<row hotelid="22222" region="Europe" location="Paris" filter="Credit(s)" expediapicks="yes" insiderselect="yes">
+		<name>Sheraton Grand Island</name>
+		<description>Waterfront hotel across the bridge from downtown. Guestrooms feature white.</description>
+		<image>http://media.expedia.com/hotels/1000000/20000/19100/19023/19023_28_t.jpg</image>
+		<starRating>50</starRating>
+		<priceCol1 offer="$20 dining credit">$375</priceCol1>
+		<priceCol2 offer="$30 dining credit">$225</priceCol2>
+		<priceCol3 offer="$40 dining credit">$075</priceCol3>
+		<merchText>stuff to sell</merchText>
+		<address>900 Newport Center Dr, Newport Beach, CA 92660</address>
+		<latitude>33.6161</latitude>
+		<longitude>-117.8788</longitude>
+	</row>
+	<row hotelid="60967" region="Mexico" location="Mazatlan" filter="Credit(s)"  expediapicks="yes" insiderselect="no">
+		<name>Sheraton Grand Island</name>
+		<description>Waterfront hotel across the bridge from downtown. Guestrooms feature white.</description>
+		<image>http://media.expedia.com/hotels/1000000/20000/19100/19023/19023_28_t.jpg</image>
+		<starRating>30</starRating>
+		<priceCol1 offer="$20 dining credit">$375</priceCol1>
+		<priceCol2 offer="$30 dining credit">$225</priceCol2>
+		<priceCol3 offer="$40 dining credit">$075</priceCol3>
+		<merchText>stuff to sell</merchText>
+		<address>4000 Coronado Bay Rd, Coronado, CA 92118</address>
+		<latitude>32.6312</latitude>
+		<longitude>-117.1337</longitude>
+	</row>
+</PriceModule>
